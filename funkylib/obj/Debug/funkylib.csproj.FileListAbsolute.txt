@@ -1,5 +1,5 @@
-C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\obj\Debug\funkylib.csprojResolveAssemblyReference.cache
 C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\bin\Debug\funkylib.dll
 C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\bin\Debug\funkylib.pdb
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\obj\Debug\funkylib.csprojResolveAssemblyReference.cache
 C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\obj\Debug\funkylib.dll
 C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\funkylib\obj\Debug\funkylib.pdb
