@@ -1,0 +1,5 @@
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\bin\Release\funkylib.dll
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\bin\Release\funkylib.pdb
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.dll
+C:\Users\Donatas\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.pdb
