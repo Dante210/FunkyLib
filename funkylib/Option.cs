@@ -9,7 +9,7 @@ namespace funkylib
 
     public struct Option
     {
-        public static Option<A> Some<A>(A value) => new Some<A>(value);
+        public static Option<A> Some<A>(A value) { return new Some<A>(value); }
 
         public static None None => None.none;
     }
@@ -26,7 +26,7 @@ namespace funkylib
             this.value = value;
         }
 
-        public R fold<R>(Func<R> onNone, Func<A, R> onSome) => isSome ? onSome(value) : onNone();
+        public R fold<R>(Func<R> onNone, Func<A, R> onSome) { return isSome ? onSome(value) : onNone(); }
 
         public void fold(Action onNone, Action<A> onSome) {
             if (isSome)
@@ -44,16 +44,20 @@ namespace funkylib
         }
 
 
-        public static implicit operator Option<A>(None _) => new Option<A>();
-        public static implicit operator Option<A>(Some<A> some) => new Option<A>(some.value);
-        public static implicit operator Option<A>(A value) => value == null ? Option.None : Option.Some(value);
+        public static implicit operator Option<A>(None _) { return new Option<A>(); }
 
-        public bool Equals(Option<A> other) => isSome == other.isSome
-            && (isNone || value.Equals(other.value));
+        public static implicit operator Option<A>(Some<A> some) { return new Option<A>(some.value); }
 
-        public bool Equals(None _) => isNone;
+        public static implicit operator Option<A>(A value) { return value == null ? Option.None : Option.Some(value); }
 
-        public override string ToString() => isSome ? $"Some({value})" : "None";
+        public bool Equals(Option<A> other) {
+            return isSome == other.isSome
+                && (isNone || value.Equals(other.value));
+        }
+
+        public bool Equals(None _) { return isNone; }
+
+        public override string ToString() { return isSome ? $"Some({value})" : "None"; }
     }
 
     public struct Some<A>
@@ -69,7 +73,7 @@ namespace funkylib
 
     public static class OptionExt
     {
-        public static Option<A> some<A>(this A value) => new Option<A>(value);
+        public static Option<A> some<A>(this A value) { return new Option<A>(value); }
 
         //Map   (A -> R) -> Option<R>
         public static Option<R> map<A, R>(this Option<A> @this, Func<A, R> func) {
@@ -83,13 +87,11 @@ namespace funkylib
                 () => Option.None, func);
         }
 
-        public static IEnumerable<A> asEnumerable<A>(this IEnumerable<Option<A>> @this)
-        {
+        public static IEnumerable<A> asEnumerable<A>(this IEnumerable<Option<A>> @this) {
             var temp = new List<A>();
             foreach (var option in @this)
                 option.fold(() => { }, some => temp.Add(some));
             return temp;
         }
-
-        }
     }
+}
