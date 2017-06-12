@@ -57,6 +57,10 @@ namespace funkylib
 
         public bool Equals(None _) { return isNone; }
 
+        public Option<C> zip<B, C>(Option<B> opt2, Func<A, B, C> mapper) => this.isSome && opt2.isSome
+            ? Option.Some(mapper(value, opt2.value))
+            : Option.None;
+
         public override string ToString() { return isSome ? $"Some({value})" : "None"; }
     }
 
@@ -75,13 +79,11 @@ namespace funkylib
     {
         public static Option<A> some<A>(this A value) { return new Option<A>(value); }
 
-        //Map   (A -> R) -> Option<R>
         public static Option<R> map<A, R>(this Option<A> @this, Func<A, R> func) {
             return @this.fold(
                 () => Option.None, value => Option.Some(func(value)));
         }
 
-        //Bind  (A -> Option<R>) ->Option<R>
         public static Option<R> flatMap<A, R>(this Option<A> @this, Func<A, Option<R>> func) {
             return @this.fold(
                 () => Option.None, func);
