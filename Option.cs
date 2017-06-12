@@ -61,6 +61,10 @@ namespace funkylib
             ? Option.Some(mapper(value, opt2.value))
             : Option.None;
 
+        public Option<D> zip<B, C, D>(Option<B> opt2, Option<C> opt3, Func<A, B, C, D> mapper) => this.isSome && opt2.isSome && opt3.isSome
+            ? Option.Some(mapper(value, opt2.value, opt3.value))
+            : Option.None;
+
         public override string ToString() { return isSome ? $"Some({value})" : "None"; }
     }
 
