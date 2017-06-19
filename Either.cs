@@ -51,7 +51,7 @@ namespace funkylib
         internal R value { get; }
         public override string ToString() => $"Right{value}";
 
-        public Right<RR> map<L, RR>(Func<R, RR> f) => f(value).right(); //?????????
+        public Right<RR> map<RR>(Func<R, RR> f) => f(value).right(); 
         public Either<L, RR> flatMap<L, RR>(Func<R, Either<L, RR>> func) => func(value);
     }
 
@@ -69,6 +69,24 @@ namespace funkylib
             => @this.fold<Either<LL, RR>>(
                 l => left(l).left(),
                 r => right(r).right());
+
+        public static Either<LL, RR> apply<L, LL, R, RR>(
+            this Either<Func<L, LL>, Func<R, RR>> @this, Either<L, R> either) =>
+            @this.fold<Either<LL, RR>>(left => left(either.left), right => right(either.right));
+
+        /*LINQ*/
+        public static Either<LL, RR> Select<L, LL, R, RR>(
+            this Either<L, R> @this, Func<L, LL> left, Func<R, RR> right) =>
+            @this.fold<Either<LL, RR>>(l => left(l).left(), r => right(r).right());
+
+        public static Either<L, RR> SelectMany<L, T, R, RR>(
+            this Either<L, T> @this, Func<T, Either<L, R>> bind, Func<T, R, RR> project) =>
+            @this.fold(
+                l => l.left(), t => bind(@this.right)
+                    .fold<Either<L, RR>>(l => l.left(), r => project(t, r)));
+
+        public static Either<L, RR> SelectMany<L, R, RR>(this Either<L, R> @this, Func<R, Either<L, RR>> func) =>
+            @this.fold(l => Either.Left(l), func);
 
     }
 }

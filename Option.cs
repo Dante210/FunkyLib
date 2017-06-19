@@ -9,7 +9,7 @@ namespace funkylib
 
     public struct Option
     {
-        public static Option<A> Some<A>(A value) { return new Some<A>(value); }
+        public static Option<A> Some<A>(A value) => new Some<A>(value);
 
         public static None None => None.none;
     }
@@ -26,7 +26,7 @@ namespace funkylib
             this.value = value;
         }
 
-        public R fold<R>(Func<R> onNone, Func<A, R> onSome) { return isSome ? onSome(value) : onNone(); }
+        public R fold<R>(Func<R> onNone, Func<A, R> onSome) => isSome ? onSome(value) : onNone();
 
         public void fold(Action onNone, Action<A> onSome) {
             if (isSome)
@@ -44,28 +44,27 @@ namespace funkylib
         }
 
 
-        public static implicit operator Option<A>(None _) { return new Option<A>(); }
+        public static implicit operator Option<A>(None _) => new Option<A>();
 
-        public static implicit operator Option<A>(Some<A> some) { return new Option<A>(some.value); }
+        public static implicit operator Option<A>(Some<A> some) => new Option<A>(some.value);
 
-        public static implicit operator Option<A>(A value) { return value == null ? Option.None : Option.Some(value); }
+        public static implicit operator Option<A>(A value) => value == null ? Option.None : Option.Some(value);
 
-        public bool Equals(Option<A> other) {
-            return isSome == other.isSome
-                && (isNone || value.Equals(other.value));
-        }
+        public bool Equals(Option<A> other) => isSome == other.isSome
+            && (isNone || value.Equals(other.value));
 
-        public bool Equals(None _) { return isNone; }
+        public bool Equals(None _) => isNone;
 
-        public Option<C> zip<B, C>(Option<B> opt2, Func<A, B, C> mapper) => this.isSome && opt2.isSome
+        public Option<C> zip<B, C>(Option<B> opt2, Func<A, B, C> mapper) => isSome && opt2.isSome
             ? Option.Some(mapper(value, opt2.value))
             : Option.None;
 
-        public Option<D> zip<B, C, D>(Option<B> opt2, Option<C> opt3, Func<A, B, C, D> mapper) => this.isSome && opt2.isSome && opt3.isSome
-            ? Option.Some(mapper(value, opt2.value, opt3.value))
-            : Option.None;
+        public Option<D> zip<B, C, D>(Option<B> opt2, Option<C> opt3, Func<A, B, C, D> mapper) => isSome &&
+            opt2.isSome && opt3.isSome
+                ? Option.Some(mapper(value, opt2.value, opt3.value))
+                : Option.None;
 
-        public override string ToString() { return isSome ? $"Some({value})" : "None"; }
+        public override string ToString() => isSome ? $"Some({value})" : "None";
     }
 
     public struct Some<A>
@@ -81,7 +80,7 @@ namespace funkylib
 
     public static class OptionExt
     {
-        public static Option<A> some<A>(this A value) { return new Option<A>(value); }
+        public static Option<A> some<A>(this A value) => new Option<A>(value);
 
         public static Option<R> map<A, R>(this Option<A> @this, Func<A, R> func) {
             return @this.fold(
@@ -99,5 +98,26 @@ namespace funkylib
                 option.fold(() => { }, some => temp.Add(some));
             return temp;
         }
+
+        public static Option<R> apply<A, R>(this Option<Func<A, R>> @this, Option<A> option) => @this.fold(
+            () => Option.None, func => option.fold(
+                () => Option.None, a => Option.Some(func(a))));
+
+        public static Option<Func<B, R>> apply<A, B, R>(this Option<Func<A, B, R>> @this, Option<A> option) => apply(
+            @this.map(F.curry), option);
+
+        /*LINQ*/
+        public static Option<R> Select<A, R>(this Option<A> @this, Func<A, R> func) => @this.map(func);
+
+        public static Option<RR> SelectMany<T, R, RR>
+            (this Option<T> opt, Func<T, Option<R>> bind, Func<T, R, RR> project)
+            => opt.fold(
+                () => Option.None,
+                t => bind(t).fold(
+                    () => Option.None,
+                    r => Option.Some(project(t, r))));
+
+        public static Option<A> Where<A>(this Option<A> @this, Func<A, bool> predicate) =>
+            @this.fold(() => Option.None, a => predicate(a) ? @this : Option.None);
     }
 }
