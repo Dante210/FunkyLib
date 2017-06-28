@@ -65,6 +65,7 @@ namespace funkylib
                 : Option.None;
 
         public override string ToString() => isSome ? $"Some({value})" : "None";
+        public static Option<A> operator |(Option<A> left, Option<A> right) => left.isSome ? left : right;
     }
 
     public struct Some<A>
