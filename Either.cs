@@ -13,7 +13,7 @@ namespace funkylib
         internal L left { get; }
         internal R right { get; }
         bool isRight { get; }
-        bool isLeft => !isRight;
+        public bool isLeft => !isRight;
 
         internal Either(L left) {
             isRight = false;
