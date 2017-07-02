@@ -4,10 +4,10 @@ namespace funkylib
 {
     public static class IO
     {
-        public static readonly IO<Unit> empty = a(() => { });
+        public static readonly IO<Unit> empty = @return(() => { });
 
-        public static IO<A> a<A>(Func<A> fn) => new IO<A>(fn);
-        public static IO<Unit> a(Action action) => new IO<Unit>(() => {
+        public static IO<A> @return<A>(Func<A> fn) => new IO<A>(fn);
+        public static IO<Unit> @return(Action action) => new IO<Unit>(() => {
             action();
             return new Unit();
         });
