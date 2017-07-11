@@ -10,12 +10,12 @@ namespace funkylib
         public bool success => ex == null;
         public bool exception => ex != null;
 
-        internal Exceptional(Exception ex) {
+        public Exceptional(Exception ex) {
             this.ex = ex;
             value = default(A);
         }
 
-        internal Exceptional(A right) {
+        public Exceptional(A right) {
             value = right;
             ex = null;
         }

@@ -7,3 +7,8 @@ C:\Users\Donatas Laurinavičiu\Documents\Visual Studio 2017\Projects\funkylib\bi
 C:\Users\Donatas Laurinavičiu\Documents\Visual Studio 2017\Projects\funkylib\bin\Release\funkylib.pdb
 C:\Users\Donatas Laurinavičiu\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.dll
 C:\Users\Donatas Laurinavičiu\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.pdb
+C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\bin\Release\funkylib.dll
+C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\bin\Release\funkylib.pdb
+C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
+C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.dll
+C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.pdb
