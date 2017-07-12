@@ -12,3 +12,7 @@ C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\bin\Rel
 C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
 C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.dll
 C:\Users\DonatasDeveloper\Documents\Visual Studio 2017\Projects\funkylib\obj\Release\funkylib.pdb
+D:\Learning\code-retreat\lib\funkylib\bin\Release\funkylib.dll
+D:\Learning\code-retreat\lib\funkylib\bin\Release\funkylib.pdb
+D:\Learning\code-retreat\lib\funkylib\obj\Release\funkylib.dll
+D:\Learning\code-retreat\lib\funkylib\obj\Release\funkylib.pdb

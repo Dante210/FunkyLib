@@ -22,5 +22,8 @@ namespace funkylib
                 yield return func(item);
             }
         }
-    }
+      public static IEnumerable<T> append<T>(this IEnumerable<T> source
+        , params T[] ts) => source.Concat(ts);
+    
+  }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace funkylib
 {
@@ -106,6 +107,15 @@ namespace funkylib
 
         public static Option<Func<B, R>> apply<A, B, R>(this Option<Func<A, B, R>> @this, Option<A> option) => apply(
             @this.map(F.curry), option);
+
+      public static Option<IEnumerable<R>> traverse<T, R>(this IEnumerable<T> @this, Func<T, Option<R>> func) =>
+        @this.Aggregate(
+          Enumerable.Empty<R>().some(),
+          (optResult, t) => 
+            from results in optResult
+            from result in func(t)
+            select results.append(result)
+        );
 
         /*LINQ*/
         public static Option<R> Select<A, R>(this Option<A> @this, Func<A, R> func) => @this.map(func);
