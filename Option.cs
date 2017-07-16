@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -88,6 +89,15 @@ namespace funkylib
             return @this.fold(
                 () => Option.None, value => Option.Some(func(value)));
         }
+
+    public static bool exist<A>(this Option<A> @this, Option<A> other) =>
+      @this.fold(
+        () => false,
+        left => other.fold(
+          () => false,
+          right => left.Equals(right)
+            )
+          );
 
         public static Option<R> flatMap<A, R>(this Option<A> @this, Func<A, Option<R>> func) {
             return @this.fold(

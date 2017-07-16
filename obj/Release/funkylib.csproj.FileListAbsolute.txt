@@ -16,3 +16,7 @@ D:\Learning\code-retreat\lib\funkylib\bin\Release\funkylib.dll
 D:\Learning\code-retreat\lib\funkylib\bin\Release\funkylib.pdb
 D:\Learning\code-retreat\lib\funkylib\obj\Release\funkylib.dll
 D:\Learning\code-retreat\lib\funkylib\obj\Release\funkylib.pdb
+F:\Code\Stupid\funkylib\bin\Release\funkylib.dll
+F:\Code\Stupid\funkylib\bin\Release\funkylib.pdb
+F:\Code\Stupid\funkylib\obj\Release\funkylib.dll
+F:\Code\Stupid\funkylib\obj\Release\funkylib.pdb
