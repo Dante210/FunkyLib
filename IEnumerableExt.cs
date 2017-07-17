@@ -14,7 +14,9 @@ namespace funkylib
             @this.Select(F.curry), a);
 
         public static IEnumerable<R> flatmap<A, R>(this IEnumerable<A> @this, Func<A, IEnumerable<R>> func) {
-            foreach (var item in @this) foreach (var r in func(item)) yield return r;
+            foreach (var item in @this)
+              foreach (var r in func(item))
+                yield return r;
         }
 
         public static IEnumerable<R> map<A, R>(this IEnumerable<A> @this, Func<A, R> func) {
