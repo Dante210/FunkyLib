@@ -27,7 +27,7 @@ namespace funkylib
             isSome = true;
             this.value = value;
         }
-
+        public A _unsafe => value;
         public R fold<R>(Func<R> onNone, Func<A, R> onSome) => isSome ? onSome(value) : onNone();
 
         public void fold(Action onNone, Action<A> onSome) {

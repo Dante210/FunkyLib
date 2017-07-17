@@ -20,3 +20,4 @@ F:\Code\Stupid\funkylib\bin\Release\funkylib.dll
 F:\Code\Stupid\funkylib\bin\Release\funkylib.pdb
 F:\Code\Stupid\funkylib\obj\Release\funkylib.dll
 F:\Code\Stupid\funkylib\obj\Release\funkylib.pdb
+F:\Code\Stupid\FunkyLib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
