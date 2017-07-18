@@ -21,3 +21,10 @@ F:\Code\Stupid\funkylib\bin\Release\funkylib.pdb
 F:\Code\Stupid\funkylib\obj\Release\funkylib.dll
 F:\Code\Stupid\funkylib\obj\Release\funkylib.pdb
 F:\Code\Stupid\FunkyLib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
+D:\Learning\stupid\funkylib\bin\Release\funkylib.dll
+D:\Learning\stupid\funkylib\bin\Release\funkylib.pdb
+D:\Learning\stupid\funkylib\bin\Release\System.Collections.Immutable.dll
+D:\Learning\stupid\funkylib\bin\Release\System.Collections.Immutable.xml
+D:\Learning\stupid\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
+D:\Learning\stupid\funkylib\obj\Release\funkylib.dll
+D:\Learning\stupid\funkylib\obj\Release\funkylib.pdb
