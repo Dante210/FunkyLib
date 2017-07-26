@@ -90,7 +90,9 @@ namespace funkylib
                 () => Option.None, value => Option.Some(func(value)));
         }
 
-    public static bool exist<A>(this Option<A> @this, Option<A> other) =>
+    public static Option<A> orElse<A>(this Option<A> @this, Func<Option<A>> optional) => !@this.isSome ? optional() : @this;
+
+      public static bool exist<A>(this Option<A> @this, Option<A> other) =>
       @this.fold(
         () => false,
         left => other.fold(

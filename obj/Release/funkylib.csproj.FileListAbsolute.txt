@@ -28,3 +28,10 @@ D:\Learning\stupid\funkylib\bin\Release\System.Collections.Immutable.xml
 D:\Learning\stupid\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
 D:\Learning\stupid\funkylib\obj\Release\funkylib.dll
 D:\Learning\stupid\funkylib\obj\Release\funkylib.pdb
+D:\Learning\polish_notation\funkylib\bin\Release\funkylib.dll
+D:\Learning\polish_notation\funkylib\bin\Release\funkylib.pdb
+D:\Learning\polish_notation\funkylib\bin\Release\System.Collections.Immutable.dll
+D:\Learning\polish_notation\funkylib\bin\Release\System.Collections.Immutable.xml
+D:\Learning\polish_notation\funkylib\obj\Release\funkylib.csprojResolveAssemblyReference.cache
+D:\Learning\polish_notation\funkylib\obj\Release\funkylib.dll
+D:\Learning\polish_notation\funkylib\obj\Release\funkylib.pdb

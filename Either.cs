@@ -12,6 +12,8 @@ namespace funkylib
     {
         internal L left { get; }
         internal R right { get; }
+        public L __unsafeGetLeft => left;
+        public R __unsafeGetRight => right;
         bool isRight { get; }
         public bool isLeft => !isRight;
 
@@ -27,7 +29,7 @@ namespace funkylib
             left = default(L);
         }
 
-        public static implicit operator Either<L, R>(L left) => new Either<L, R>(left);
+    public static implicit operator Either<L, R>(L left) => new Either<L, R>(left);
         public static implicit operator Either<L, R>(R right) => new Either<L, R>(right);
         public static implicit operator Either<L, R>(Left<L> left) => new Either<L, R>(left.value);
         public static implicit operator Either<L, R>(Right<R> right) => new Either<L, R>(right.value);
@@ -73,6 +75,8 @@ namespace funkylib
         public static Either<LL, RR> apply<L, LL, R, RR>(
             this Either<Func<L, LL>, Func<R, RR>> @this, Either<L, R> either) =>
             @this.fold<Either<LL, RR>>(left => left(either.left), right => right(either.right));
+    public static Either<L, R> orElse<L, R>(this Either<L, R> @this, Func<Either<L, R>> optional) =>
+      @this.isLeft ? optional() : @this;
 
         /*LINQ*/
         public static Either<LL, RR> Select<L, LL, R, RR>(
