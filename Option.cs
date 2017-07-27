@@ -90,16 +90,26 @@ namespace funkylib
                 () => Option.None, value => Option.Some(func(value)));
         }
 
-    public static Option<A> orElse<A>(this Option<A> @this, Func<Option<A>> optional) => !@this.isSome ? optional() : @this;
+     public static Option<C> orElse<A,B,C>(this Option<A> @this, Func<Option<B>> optional, Func<A,C> mapThis, Func<B,C> mapAnother) {
+      if (@this.isSome)
+        return mapThis(@this._unsafe);
+      else {
+        var another = optional();
+        if (another.isSome)
+          return mapAnother(another._unsafe);
+        else
+          return Option.None;
+      }
+    }
 
-      public static bool exist<A>(this Option<A> @this, Option<A> other) =>
+    public static bool exist<A>(this Option<A> @this, Option<A> other) =>
       @this.fold(
         () => false,
         left => other.fold(
           () => false,
           right => left.Equals(right)
-            )
-          );
+        )
+      );
 
         public static Option<R> flatMap<A, R>(this Option<A> @this, Func<A, Option<R>> func) {
             return @this.fold(

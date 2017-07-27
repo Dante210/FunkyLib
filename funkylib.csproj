@@ -58,6 +58,7 @@
     <Compile Include="Try.cs" />
     <Compile Include="Validation.cs" />
     <Compile Include="ValueTypes\Double.cs" />
+    <Compile Include="ValueTypes\Int.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
