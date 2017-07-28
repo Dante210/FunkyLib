@@ -47,11 +47,11 @@
     <Compile Include="Error.cs" />
     <Compile Include="Exceptional.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="Exts.cs" />
     <Compile Include="F.cs" />
     <Compile Include="File.cs" />
     <Compile Include="FuncExt.cs" />
     <Compile Include="IEnumerableExt.cs" />
-    <Compile Include="Data\LinkedList.cs" />
     <Compile Include="IO.cs" />
     <Compile Include="Option.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -20,7 +20,7 @@ namespace funkylib
     {
         readonly A value;
         public readonly bool isSome;
-        bool isNone => !isSome;
+        public bool isNone => !isSome;
 
         internal Option(A value) {
             if (value == null) throw new ArgumentNullException();
@@ -129,7 +129,14 @@ namespace funkylib
 
         public static Option<Func<B, R>> apply<A, B, R>(this Option<Func<A, B, R>> @this, Option<A> option) => apply(
             @this.map(F.curry), option);
-
+    /// <summary>
+    /// Maps every collection member to option and agreggates to collection of options.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="R"></typeparam>
+    /// <param name="this"></param>
+    /// <param name="func"></param>
+    /// <returns>Option<Collection> if all collection members is some</returns>
       public static Option<IEnumerable<R>> traverse<T, R>(this IEnumerable<T> @this, Func<T, Option<R>> func) =>
         @this.Aggregate(
           Enumerable.Empty<R>().some(),
@@ -139,8 +146,8 @@ namespace funkylib
             select results.append(result)
         );
 
-        /*LINQ*/
-        public static Option<R> Select<A, R>(this Option<A> @this, Func<A, R> func) => @this.map(func);
+    /*LINQ*/
+    public static Option<R> Select<A, R>(this Option<A> @this, Func<A, R> func) => @this.map(func);
 
         public static Option<RR> SelectMany<T, R, RR>
             (this Option<T> opt, Func<T, Option<R>> bind, Func<T, R, RR> project)
