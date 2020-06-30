@@ -1,7 +1,0 @@
-﻿namespace funkylib
-{
-    class Validation
-    {
-
-    }
-}

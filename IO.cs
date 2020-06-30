@@ -46,26 +46,4 @@ namespace funkylib
         /** Runs the encapsulated side effects. */
         public A unsafeRun() => fn();
     }
-  public static class IOExts {
-
-    public static IO<Exceptional<R>> readerWrapper<R>(File file, Func<StreamReader, R> func) {
-      return file.streamReader.map(exceptional =>
-        exceptional.fold<Exceptional<R>>(
-          exception => exception,
-          streamReader => F.@using(streamReader, func)
-        )
-      );
-    }
-
-    public static IO<Exceptional<ImmutableList<string>>> readAllLines(this File @this) {
-      return readerWrapper(@this, reader => {
-        string line;
-        var temp = new List<string>();
-        while ((line = reader.ReadLine()) != null) {
-          temp.Add(line);
-        }
-        return temp.ToImmutableList();
-      });
-    }
-  }
 }
