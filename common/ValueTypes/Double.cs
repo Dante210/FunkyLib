@@ -1,4 +1,4 @@
-﻿namespace funkylib.common.ValueTypes {
+﻿﻿namespace funkylib.common.ValueTypes {
   public static class Double {
     /// <summary>
     /// Safely parses double from string.

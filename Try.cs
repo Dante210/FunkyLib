@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using funkylib.common;
 
 namespace funkylib

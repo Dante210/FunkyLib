@@ -1,4 +1,4 @@
-﻿namespace funkylib.common.ValueTypes {
+﻿﻿namespace funkylib.common.ValueTypes {
   public static class Int {
     /// <summary>
     /// Safely parses int from string.

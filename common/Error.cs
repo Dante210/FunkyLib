@@ -1,4 +1,4 @@
-﻿namespace funkylib.common {
+﻿﻿namespace funkylib.common {
   /// <summary>
   /// Convenience class to hold error.
   /// <![CDATA[

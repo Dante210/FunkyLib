@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.IO;
+﻿﻿using System;
 
-namespace funkylib
+ namespace funkylib
 {
     public static class IO
     {
