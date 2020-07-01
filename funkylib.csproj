@@ -5,6 +5,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Donatas Laurinavicius</Authors>
         <RepositoryUrl>https://github.com/Donatas-L/funkylib</RepositoryUrl>
+        <LangVersion>7.1</LangVersion>
+        <Description>Lightweight functional programming library for C#</Description>
+        <PackageLicenseUrl>https://github.com/Donatas-L/funkylib/blob/master/LICENSE.md</PackageLicenseUrl>
     </PropertyGroup>
 
 </Project>
