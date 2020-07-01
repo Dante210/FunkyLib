@@ -7,8 +7,8 @@
     public static IO<A> @return<A>(Func<A> fn) => new IO<A>(fn);
 
     public static IO<Unit> @return(Action action) => new IO<Unit>(() => {
-        action();
-        return new Unit();
+      action();
+      return new Unit();
     });
   }
 

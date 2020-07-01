@@ -5,6 +5,11 @@ using System.Linq;
 namespace funkylib {
   public struct Unit { }
 
+  /// <summary>
+  /// Represents optional values. Instances of `Option` are either an instance of Some or None.
+  /// The most idiomatic way to use an $option instance is to treat it
+  /// as a collection or monad and use `map`,`flatMap`, or `@foreach`:
+  /// </summary>
   public struct Option {
     public static Option<A> Some<A>(A value) => new Some<A>(value);
     public static None None => None.none;
@@ -13,6 +18,10 @@ namespace funkylib {
   public struct Option<A> : IEquatable<Option<A>>, IEquatable<None> {
     readonly A value;
     public readonly bool isSome;
+
+    /// <summary>
+    /// returns true if the option is None, false otherwise.
+    /// </summary>
     public bool isNone => !isSome;
 
     internal Option(A value) {
@@ -23,6 +32,13 @@ namespace funkylib {
 
     public A _unsafe => value;
 
+    /// <summary>
+    /// Returns the result of applying `onSome` to this option's
+    /// value if the option is nonempty.  Otherwise, evaluates
+    /// expression `onNone`
+    /// </summary>
+    /// <param name="onNone">The expression to evaluate if empty</param>
+    /// <param name="onSome">The function to apply if nonempty.</param>
     public R fold<R>(Func<R> onNone, Func<A, R> onSome) => isSome ? onSome(value) : onNone();
 
     public void fold(Action onNone, Action<A> onSome) {
@@ -30,7 +46,10 @@ namespace funkylib {
       else onNone();
     }
 
-    public void each(Action<A> action) {
+    /// <summary>
+    /// Apply the given procedure $f to the option's value, if it is nonempty. Otherwise, do nothing.
+    /// </summary>
+    public void @foreach(Action<A> action) {
       if (isSome) action(value);
     }
 
@@ -43,11 +62,26 @@ namespace funkylib {
 
     public bool Equals(None _) => isNone;
 
-    public Option<C> zip<B, C>(Option<B> opt2, Func<A, B, C> mapper) =>
-      isSome && opt2.isSome
-        ? Option.Some(mapper(value, opt2.value))
+    /// <summary>
+    /// Returns a `Some` formed from this option and another option
+    /// by combining the corresponding elements into a single option by applying given `mapper` function,
+    /// if either of the two options is empty, `None` is returned.
+    /// </summary>
+    /// <param name="that">Second option</param>
+    /// <param name="mapper">Function to apply with both option's values</param>
+    public Option<C> zip<B, C>(Option<B> that, Func<A, B, C> mapper) =>
+      isSome && that.isSome
+        ? Option.Some(mapper(value, that.value))
         : Option.None;
 
+    /// <summary>
+    /// Returns a `Some` formed from three different options
+    /// by combining the corresponding elements into a single option by applying given `mapper` function,
+    /// if either of the three options is empty, `None` is returned.
+    /// </summary>
+    /// <param name="opt2">Second option</param>
+    /// <param name="opt3">Third option</param>
+    /// <param name="mapper">Function to apply with all option's values</param>
     public Option<D> zip<B, C, D>(Option<B> opt2, Option<C> opt3, Func<A, B, C, D> mapper) =>
       isSome && opt2.isSome && opt3.isSome
         ? Option.Some(mapper(value, opt2.value, opt3.value))
