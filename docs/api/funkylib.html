@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace funkylib
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace funkylib
+   ">
+    <meta name="generator" content="docfx 2.56.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="funkylib">
+  
+  <h1 id="funkylib" data-uid="funkylib" class="text-break">Namespace funkylib
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="funkylib.Either.html">Either</a></h4>
+      <section><p>
+Represents a value of one of two possible types (a disjoint union).
+An instance of `Either` holds <a class="xref" href="funkylib.Either.html#funkylib_Either_Left__1___0_">Left&lt;L&gt;(L)</a> or <a class="xref" href="funkylib.Either.html#funkylib_Either_Right__1___0_">Right&lt;R&gt;(R)</a>.
+</p>
+A common use of `Either` is as an alternative to <a class="xref" href="funkylib.Option.html">Option</a> for dealing
+with possibly missing values.  In this usage, <a class="xref" href="funkylib.Option.html#funkylib_Option_None">None</a> is replaced
+with a <a class="xref" href="funkylib.Either.html#funkylib_Either_Left__1___0_">Left&lt;L&gt;(L)</a> which can contain useful information.
+<a class="xref" href="funkylib.Either.html#funkylib_Either_Right__1___0_">Right&lt;R&gt;(R)</a> takes the place of <a class="xref" href="funkylib.Option.html#funkylib_Option_Some__1___0_">Some&lt;A&gt;(A)</a>.
+Convention dictates that `Left` is used for failure and `Right` is used for success.
+</section>
+      <h4><a class="xref" href="funkylib.EitherExt.html">EitherExt</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.Extensions.html">Extensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.F.html">F</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.IEnumerableExt.html">IEnumerableExt</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.IO.html">IO</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.OptionExt.html">OptionExt</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.TryExt.html">TryExt</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="funkylib.Either-2.html">Either&lt;L, R&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.IO-1.html">IO&lt;A&gt;</a></h4>
+      <section><p>Allows encapsulating side effects and composing them.</p>
+</section>
+      <h4><a class="xref" href="funkylib.Left-1.html">Left&lt;L&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.None.html">None</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.Option.html">Option</a></h4>
+      <section><p>Represents optional values. Instances of <code>Option</code> are either an instance of Some or None.
+The most idiomatic way to use an $option instance is to treat it
+as a collection or monad and use <code>map</code>,<code>flatMap</code>, or <code>@foreach</code>:</p>
+</section>
+      <h4><a class="xref" href="funkylib.Option-1.html">Option&lt;A&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.Right-1.html">Right&lt;R&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.Some-1.html">Some&lt;A&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="funkylib.Unit.html">Unit</a></h4>
+      <section></section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="funkylib.Try-1.html">Try&lt;A&gt;</a></h4>
+      <section><p>The <code>Try</code> type represents a computation that may either result in an exception, or return a
+successfully computed value. It's the same as <a class="xref" href="funkylib.common.Exceptional-1.html">Exceptional&lt;A&gt;</a> type,
+but more commonly used in functional programming than Exceptional.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,510 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Donatas/Desktop/funkylib",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html",
+          "hash": "VgF/5NuzkU7IGBm7naCRlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "z4PxyAEJH78SdMz6MWNAgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Either-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Either-2.html",
+          "hash": "5IsJcxBjtPOGTyD/d2p9Eg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Either.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Either.html",
+          "hash": "ecrgCmyB+5TrqMVzj9nEaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.EitherExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.EitherExt.html",
+          "hash": "oy2KH4uEBvVcF7Yy6BkIiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Extensions.html",
+          "hash": "hXY/IryBPHcRQmz9odEFmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.F.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.F.html",
+          "hash": "e0/gpZ5EkpHGQHKJwTwRIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.IEnumerableExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.IEnumerableExt.html",
+          "hash": "DxG25WcjuxPz3adWdfSaig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.IO-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.IO-1.html",
+          "hash": "ux/lT/lBybhQCEgp8v0MrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.IO.html",
+          "hash": "Zhat+xJG1y0IVlNNfhuTeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Left-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Left-1.html",
+          "hash": "32EK1QJB4Iec4wMefAm2CA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.None.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.None.html",
+          "hash": "CXYl9wTzt30odPAFuTx9bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Option-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Option-1.html",
+          "hash": "mbdfJBsRq9KdHoV1GUxfHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Option.html",
+          "hash": "8BhiyAzlrxioP+nRyfkoRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.OptionExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.OptionExt.html",
+          "hash": "9+o4xeOKiI0QGMYFZCpoug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Right-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Right-1.html",
+          "hash": "8Ur4PB4e5qe2q68z2fSJ7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Some-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Some-1.html",
+          "hash": "1LxGmS6msHxp888W8CjbXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Try-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Try-1.html",
+          "hash": "SLQ3Wu3Nx31k+bsrQvL3Qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.TryExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.TryExt.html",
+          "hash": "hEBnOyIzBuFkOFeLYjEBHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.Unit.html",
+          "hash": "4PiqNeeLQHj60V0C/Okp3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.Error.html",
+          "hash": "enJ+z36T+nQ2l6egCUKNXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.Exceptional-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.Exceptional-1.html",
+          "hash": "61EfhEgAGb3GP6vhzcg0sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.ExceptionalExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.ExceptionalExt.html",
+          "hash": "TdaWzsZGJzpHALI1aWoY0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.Exts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.Exts.html",
+          "hash": "0nM99OVoBPT+lL/e0dmq3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.File.html",
+          "hash": "cwBQ626kOiGGaf38lxXV0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.FileExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.FileExt.html",
+          "hash": "ZMdzeP+ZxqMMeErFCnM8AA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.FuncExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.FuncExt.html",
+          "hash": "q78T9+UHwyMRIJ0FeH0VWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.ValueTypes.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.ValueTypes.Double.html",
+          "hash": "WJTPIdqDYc1Sq1xharu7yw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.ValueTypes.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.ValueTypes.Int.html",
+          "hash": "5QmeqRyp4U9qAe4cfoOmLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.ValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.ValueTypes.html",
+          "hash": "qkhE3fFRk4go8SJmANTJTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.common.html",
+          "hash": "AefL+2VUi9Sv/rr9Y6k8ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/funkylib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/funkylib.html",
+          "hash": "CKoNZfOHt6X+sBNBSVI3Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "hrCbDrrFzdF9u0s3TKa7kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "BSdbhq63Jbnqv9Im5x3aZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "4onS5OUYKcxUrAMIrtXkHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "adSfXdkEimBCq2OnF5mcEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 5
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 26
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

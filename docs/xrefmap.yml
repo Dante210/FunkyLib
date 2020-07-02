@@ -1,0 +1,1604 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: funkylib
+  name: funkylib
+  href: api/funkylib.html
+  commentId: N:funkylib
+  fullName: funkylib
+  nameWithType: funkylib
+- uid: funkylib.common
+  name: funkylib.common
+  href: api/funkylib.common.html
+  commentId: N:funkylib.common
+  fullName: funkylib.common
+  nameWithType: funkylib.common
+- uid: funkylib.common.Error
+  name: Error
+  href: api/funkylib.common.Error.html
+  commentId: T:funkylib.common.Error
+  fullName: funkylib.common.Error
+  nameWithType: Error
+- uid: funkylib.common.Error.#ctor(System.String)
+  name: Error(String)
+  href: api/funkylib.common.Error.html#funkylib_common_Error__ctor_System_String_
+  commentId: M:funkylib.common.Error.#ctor(System.String)
+  fullName: funkylib.common.Error.Error(System.String)
+  nameWithType: Error.Error(String)
+- uid: funkylib.common.Error.#ctor*
+  name: Error
+  href: api/funkylib.common.Error.html#funkylib_common_Error__ctor_
+  commentId: Overload:funkylib.common.Error.#ctor
+  isSpec: "True"
+  fullName: funkylib.common.Error.Error
+  nameWithType: Error.Error
+- uid: funkylib.common.Error.message
+  name: message
+  href: api/funkylib.common.Error.html#funkylib_common_Error_message
+  commentId: F:funkylib.common.Error.message
+  fullName: funkylib.common.Error.message
+  nameWithType: Error.message
+- uid: funkylib.common.Error.op_Implicit(System.String)~funkylib.common.Error
+  name: Implicit(String to Error)
+  href: api/funkylib.common.Error.html#funkylib_common_Error_op_Implicit_System_String__funkylib_common_Error
+  commentId: M:funkylib.common.Error.op_Implicit(System.String)~funkylib.common.Error
+  name.vb: Widening(String to Error)
+  fullName: funkylib.common.Error.Implicit(System.String to funkylib.common.Error)
+  fullName.vb: funkylib.common.Error.Widening(System.String to funkylib.common.Error)
+  nameWithType: Error.Implicit(String to Error)
+  nameWithType.vb: Error.Widening(String to Error)
+- uid: funkylib.common.Error.op_Implicit*
+  name: Implicit
+  href: api/funkylib.common.Error.html#funkylib_common_Error_op_Implicit_
+  commentId: Overload:funkylib.common.Error.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: funkylib.common.Error.Implicit
+  fullName.vb: funkylib.common.Error.Widening
+  nameWithType: Error.Implicit
+  nameWithType.vb: Error.Widening
+- uid: funkylib.common.Error.ToString
+  name: ToString()
+  href: api/funkylib.common.Error.html#funkylib_common_Error_ToString
+  commentId: M:funkylib.common.Error.ToString
+  fullName: funkylib.common.Error.ToString()
+  nameWithType: Error.ToString()
+- uid: funkylib.common.Error.ToString*
+  name: ToString
+  href: api/funkylib.common.Error.html#funkylib_common_Error_ToString_
+  commentId: Overload:funkylib.common.Error.ToString
+  isSpec: "True"
+  fullName: funkylib.common.Error.ToString
+  nameWithType: Error.ToString
+- uid: funkylib.common.Exceptional`1
+  name: Exceptional<A>
+  href: api/funkylib.common.Exceptional-1.html
+  commentId: T:funkylib.common.Exceptional`1
+  name.vb: Exceptional(Of A)
+  fullName: funkylib.common.Exceptional<A>
+  fullName.vb: funkylib.common.Exceptional(Of A)
+  nameWithType: Exceptional<A>
+  nameWithType.vb: Exceptional(Of A)
+- uid: funkylib.common.Exceptional`1.#ctor(`0)
+  name: Exceptional(A)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1__ctor__0_
+  commentId: M:funkylib.common.Exceptional`1.#ctor(`0)
+  fullName: funkylib.common.Exceptional<A>.Exceptional(A)
+  fullName.vb: funkylib.common.Exceptional(Of A).Exceptional(A)
+  nameWithType: Exceptional<A>.Exceptional(A)
+  nameWithType.vb: Exceptional(Of A).Exceptional(A)
+- uid: funkylib.common.Exceptional`1.#ctor(System.Exception)
+  name: Exceptional(Exception)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1__ctor_System_Exception_
+  commentId: M:funkylib.common.Exceptional`1.#ctor(System.Exception)
+  fullName: funkylib.common.Exceptional<A>.Exceptional(System.Exception)
+  fullName.vb: funkylib.common.Exceptional(Of A).Exceptional(System.Exception)
+  nameWithType: Exceptional<A>.Exceptional(Exception)
+  nameWithType.vb: Exceptional(Of A).Exceptional(Exception)
+- uid: funkylib.common.Exceptional`1.#ctor*
+  name: Exceptional
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1__ctor_
+  commentId: Overload:funkylib.common.Exceptional`1.#ctor
+  isSpec: "True"
+  fullName: funkylib.common.Exceptional<A>.Exceptional
+  fullName.vb: funkylib.common.Exceptional(Of A).Exceptional
+  nameWithType: Exceptional<A>.Exceptional
+  nameWithType.vb: Exceptional(Of A).Exceptional
+- uid: funkylib.common.Exceptional`1.exception
+  name: exception
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_exception
+  commentId: P:funkylib.common.Exceptional`1.exception
+  fullName: funkylib.common.Exceptional<A>.exception
+  fullName.vb: funkylib.common.Exceptional(Of A).exception
+  nameWithType: Exceptional<A>.exception
+  nameWithType.vb: Exceptional(Of A).exception
+- uid: funkylib.common.Exceptional`1.exception*
+  name: exception
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_exception_
+  commentId: Overload:funkylib.common.Exceptional`1.exception
+  isSpec: "True"
+  fullName: funkylib.common.Exceptional<A>.exception
+  fullName.vb: funkylib.common.Exceptional(Of A).exception
+  nameWithType: Exceptional<A>.exception
+  nameWithType.vb: Exceptional(Of A).exception
+- uid: funkylib.common.Exceptional`1.fold(System.Action{System.Exception},System.Action{`0})
+  name: fold(Action<Exception>, Action<A>)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_fold_System_Action_System_Exception__System_Action__0__
+  commentId: M:funkylib.common.Exceptional`1.fold(System.Action{System.Exception},System.Action{`0})
+  name.vb: fold(Action(Of Exception), Action(Of A))
+  fullName: funkylib.common.Exceptional<A>.fold(System.Action<System.Exception>, System.Action<A>)
+  fullName.vb: funkylib.common.Exceptional(Of A).fold(System.Action(Of System.Exception), System.Action(Of A))
+  nameWithType: Exceptional<A>.fold(Action<Exception>, Action<A>)
+  nameWithType.vb: Exceptional(Of A).fold(Action(Of Exception), Action(Of A))
+- uid: funkylib.common.Exceptional`1.fold*
+  name: fold
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_fold_
+  commentId: Overload:funkylib.common.Exceptional`1.fold
+  isSpec: "True"
+  fullName: funkylib.common.Exceptional<A>.fold
+  fullName.vb: funkylib.common.Exceptional(Of A).fold
+  nameWithType: Exceptional<A>.fold
+  nameWithType.vb: Exceptional(Of A).fold
+- uid: funkylib.common.Exceptional`1.fold``1(System.Func{System.Exception,``0},System.Func{`0,``0})
+  name: fold<AR>(Func<Exception, AR>, Func<A, AR>)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_fold__1_System_Func_System_Exception___0__System_Func__0___0__
+  commentId: M:funkylib.common.Exceptional`1.fold``1(System.Func{System.Exception,``0},System.Func{`0,``0})
+  name.vb: fold(Of AR)(Func(Of Exception, AR), Func(Of A, AR))
+  fullName: funkylib.common.Exceptional<A>.fold<AR>(System.Func<System.Exception, AR>, System.Func<A, AR>)
+  fullName.vb: funkylib.common.Exceptional(Of A).fold(Of AR)(System.Func(Of System.Exception, AR), System.Func(Of A, AR))
+  nameWithType: Exceptional<A>.fold<AR>(Func<Exception, AR>, Func<A, AR>)
+  nameWithType.vb: Exceptional(Of A).fold(Of AR)(Func(Of Exception, AR), Func(Of A, AR))
+- uid: funkylib.common.Exceptional`1.op_Implicit(`0)~funkylib.common.Exceptional{`0}
+  name: Implicit(A to Exceptional<A>)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_op_Implicit__0__funkylib_common_Exceptional__0_
+  commentId: M:funkylib.common.Exceptional`1.op_Implicit(`0)~funkylib.common.Exceptional{`0}
+  name.vb: Widening(A to Exceptional(Of A))
+  fullName: funkylib.common.Exceptional<A>.Implicit(A to funkylib.common.Exceptional<A>)
+  fullName.vb: funkylib.common.Exceptional(Of A).Widening(A to funkylib.common.Exceptional(Of A))
+  nameWithType: Exceptional<A>.Implicit(A to Exceptional<A>)
+  nameWithType.vb: Exceptional(Of A).Widening(A to Exceptional(Of A))
+- uid: funkylib.common.Exceptional`1.op_Implicit(System.Exception)~funkylib.common.Exceptional{`0}
+  name: Implicit(Exception to Exceptional<A>)
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_op_Implicit_System_Exception__funkylib_common_Exceptional__0_
+  commentId: M:funkylib.common.Exceptional`1.op_Implicit(System.Exception)~funkylib.common.Exceptional{`0}
+  name.vb: Widening(Exception to Exceptional(Of A))
+  fullName: funkylib.common.Exceptional<A>.Implicit(System.Exception to funkylib.common.Exceptional<A>)
+  fullName.vb: funkylib.common.Exceptional(Of A).Widening(System.Exception to funkylib.common.Exceptional(Of A))
+  nameWithType: Exceptional<A>.Implicit(Exception to Exceptional<A>)
+  nameWithType.vb: Exceptional(Of A).Widening(Exception to Exceptional(Of A))
+- uid: funkylib.common.Exceptional`1.op_Implicit*
+  name: Implicit
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_op_Implicit_
+  commentId: Overload:funkylib.common.Exceptional`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: funkylib.common.Exceptional<A>.Implicit
+  fullName.vb: funkylib.common.Exceptional(Of A).Widening
+  nameWithType: Exceptional<A>.Implicit
+  nameWithType.vb: Exceptional(Of A).Widening
+- uid: funkylib.common.Exceptional`1.success
+  name: success
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_success
+  commentId: P:funkylib.common.Exceptional`1.success
+  fullName: funkylib.common.Exceptional<A>.success
+  fullName.vb: funkylib.common.Exceptional(Of A).success
+  nameWithType: Exceptional<A>.success
+  nameWithType.vb: Exceptional(Of A).success
+- uid: funkylib.common.Exceptional`1.success*
+  name: success
+  href: api/funkylib.common.Exceptional-1.html#funkylib_common_Exceptional_1_success_
+  commentId: Overload:funkylib.common.Exceptional`1.success
+  isSpec: "True"
+  fullName: funkylib.common.Exceptional<A>.success
+  fullName.vb: funkylib.common.Exceptional(Of A).success
+  nameWithType: Exceptional<A>.success
+  nameWithType.vb: Exceptional(Of A).success
+- uid: funkylib.common.ExceptionalExt
+  name: ExceptionalExt
+  href: api/funkylib.common.ExceptionalExt.html
+  commentId: T:funkylib.common.ExceptionalExt
+  fullName: funkylib.common.ExceptionalExt
+  nameWithType: ExceptionalExt
+- uid: funkylib.common.ExceptionalExt.flatMap*
+  name: flatMap
+  href: api/funkylib.common.ExceptionalExt.html#funkylib_common_ExceptionalExt_flatMap_
+  commentId: Overload:funkylib.common.ExceptionalExt.flatMap
+  isSpec: "True"
+  fullName: funkylib.common.ExceptionalExt.flatMap
+  nameWithType: ExceptionalExt.flatMap
+- uid: funkylib.common.ExceptionalExt.flatMap``2(funkylib.common.Exceptional{``0},System.Func{``0,funkylib.common.Exceptional{``1}})
+  name: flatMap<R, RR>(Exceptional<R>, Func<R, Exceptional<RR>>)
+  href: api/funkylib.common.ExceptionalExt.html#funkylib_common_ExceptionalExt_flatMap__2_funkylib_common_Exceptional___0__System_Func___0_funkylib_common_Exceptional___1___
+  commentId: M:funkylib.common.ExceptionalExt.flatMap``2(funkylib.common.Exceptional{``0},System.Func{``0,funkylib.common.Exceptional{``1}})
+  name.vb: flatMap(Of R, RR)(Exceptional(Of R), Func(Of R, Exceptional(Of RR)))
+  fullName: funkylib.common.ExceptionalExt.flatMap<R, RR>(funkylib.common.Exceptional<R>, System.Func<R, funkylib.common.Exceptional<RR>>)
+  fullName.vb: funkylib.common.ExceptionalExt.flatMap(Of R, RR)(funkylib.common.Exceptional(Of R), System.Func(Of R, funkylib.common.Exceptional(Of RR)))
+  nameWithType: ExceptionalExt.flatMap<R, RR>(Exceptional<R>, Func<R, Exceptional<RR>>)
+  nameWithType.vb: ExceptionalExt.flatMap(Of R, RR)(Exceptional(Of R), Func(Of R, Exceptional(Of RR)))
+- uid: funkylib.common.ExceptionalExt.map*
+  name: map
+  href: api/funkylib.common.ExceptionalExt.html#funkylib_common_ExceptionalExt_map_
+  commentId: Overload:funkylib.common.ExceptionalExt.map
+  isSpec: "True"
+  fullName: funkylib.common.ExceptionalExt.map
+  nameWithType: ExceptionalExt.map
+- uid: funkylib.common.ExceptionalExt.map``2(funkylib.common.Exceptional{``0},System.Func{``0,``1})
+  name: map<R, RR>(Exceptional<R>, Func<R, RR>)
+  href: api/funkylib.common.ExceptionalExt.html#funkylib_common_ExceptionalExt_map__2_funkylib_common_Exceptional___0__System_Func___0___1__
+  commentId: M:funkylib.common.ExceptionalExt.map``2(funkylib.common.Exceptional{``0},System.Func{``0,``1})
+  name.vb: map(Of R, RR)(Exceptional(Of R), Func(Of R, RR))
+  fullName: funkylib.common.ExceptionalExt.map<R, RR>(funkylib.common.Exceptional<R>, System.Func<R, RR>)
+  fullName.vb: funkylib.common.ExceptionalExt.map(Of R, RR)(funkylib.common.Exceptional(Of R), System.Func(Of R, RR))
+  nameWithType: ExceptionalExt.map<R, RR>(Exceptional<R>, Func<R, RR>)
+  nameWithType.vb: ExceptionalExt.map(Of R, RR)(Exceptional(Of R), Func(Of R, RR))
+- uid: funkylib.common.Exts
+  name: Exts
+  href: api/funkylib.common.Exts.html
+  commentId: T:funkylib.common.Exts
+  fullName: funkylib.common.Exts
+  nameWithType: Exts
+- uid: funkylib.common.Exts.get*
+  name: get
+  href: api/funkylib.common.Exts.html#funkylib_common_Exts_get_
+  commentId: Overload:funkylib.common.Exts.get
+  isSpec: "True"
+  fullName: funkylib.common.Exts.get
+  nameWithType: Exts.get
+- uid: funkylib.common.Exts.get``1(``0[],System.Int32)
+  name: get<A>(A[], Int32)
+  href: api/funkylib.common.Exts.html#funkylib_common_Exts_get__1___0___System_Int32_
+  commentId: M:funkylib.common.Exts.get``1(``0[],System.Int32)
+  name.vb: get(Of A)(A(), Int32)
+  fullName: funkylib.common.Exts.get<A>(A[], System.Int32)
+  fullName.vb: funkylib.common.Exts.get(Of A)(A(), System.Int32)
+  nameWithType: Exts.get<A>(A[], Int32)
+  nameWithType.vb: Exts.get(Of A)(A(), Int32)
+- uid: funkylib.common.Exts.get``1(System.Collections.Immutable.ImmutableList{``0},System.Int32)
+  name: get<A>(ImmutableList<A>, Int32)
+  href: api/funkylib.common.Exts.html#funkylib_common_Exts_get__1_System_Collections_Immutable_ImmutableList___0__System_Int32_
+  commentId: M:funkylib.common.Exts.get``1(System.Collections.Immutable.ImmutableList{``0},System.Int32)
+  name.vb: get(Of A)(ImmutableList(Of A), Int32)
+  fullName: funkylib.common.Exts.get<A>(System.Collections.Immutable.ImmutableList<A>, System.Int32)
+  fullName.vb: funkylib.common.Exts.get(Of A)(System.Collections.Immutable.ImmutableList(Of A), System.Int32)
+  nameWithType: Exts.get<A>(ImmutableList<A>, Int32)
+  nameWithType.vb: Exts.get(Of A)(ImmutableList(Of A), Int32)
+- uid: funkylib.common.File
+  name: File
+  href: api/funkylib.common.File.html
+  commentId: T:funkylib.common.File
+  fullName: funkylib.common.File
+  nameWithType: File
+- uid: funkylib.common.File.#ctor(System.String)
+  name: File(String)
+  href: api/funkylib.common.File.html#funkylib_common_File__ctor_System_String_
+  commentId: M:funkylib.common.File.#ctor(System.String)
+  fullName: funkylib.common.File.File(System.String)
+  nameWithType: File.File(String)
+- uid: funkylib.common.File.#ctor*
+  name: File
+  href: api/funkylib.common.File.html#funkylib_common_File__ctor_
+  commentId: Overload:funkylib.common.File.#ctor
+  isSpec: "True"
+  fullName: funkylib.common.File.File
+  nameWithType: File.File
+- uid: funkylib.common.File.getReader
+  name: getReader
+  href: api/funkylib.common.File.html#funkylib_common_File_getReader
+  commentId: P:funkylib.common.File.getReader
+  fullName: funkylib.common.File.getReader
+  nameWithType: File.getReader
+- uid: funkylib.common.File.getReader*
+  name: getReader
+  href: api/funkylib.common.File.html#funkylib_common_File_getReader_
+  commentId: Overload:funkylib.common.File.getReader
+  isSpec: "True"
+  fullName: funkylib.common.File.getReader
+  nameWithType: File.getReader
+- uid: funkylib.common.File.getWriter
+  name: getWriter
+  href: api/funkylib.common.File.html#funkylib_common_File_getWriter
+  commentId: P:funkylib.common.File.getWriter
+  fullName: funkylib.common.File.getWriter
+  nameWithType: File.getWriter
+- uid: funkylib.common.File.getWriter*
+  name: getWriter
+  href: api/funkylib.common.File.html#funkylib_common_File_getWriter_
+  commentId: Overload:funkylib.common.File.getWriter
+  isSpec: "True"
+  fullName: funkylib.common.File.getWriter
+  nameWithType: File.getWriter
+- uid: funkylib.common.File.path
+  name: path
+  href: api/funkylib.common.File.html#funkylib_common_File_path
+  commentId: F:funkylib.common.File.path
+  fullName: funkylib.common.File.path
+  nameWithType: File.path
+- uid: funkylib.common.FileExt
+  name: FileExt
+  href: api/funkylib.common.FileExt.html
+  commentId: T:funkylib.common.FileExt
+  fullName: funkylib.common.FileExt
+  nameWithType: FileExt
+- uid: funkylib.common.FileExt.readAllLines(funkylib.common.File)
+  name: readAllLines(File)
+  href: api/funkylib.common.FileExt.html#funkylib_common_FileExt_readAllLines_funkylib_common_File_
+  commentId: M:funkylib.common.FileExt.readAllLines(funkylib.common.File)
+  fullName: funkylib.common.FileExt.readAllLines(funkylib.common.File)
+  nameWithType: FileExt.readAllLines(File)
+- uid: funkylib.common.FileExt.readAllLines*
+  name: readAllLines
+  href: api/funkylib.common.FileExt.html#funkylib_common_FileExt_readAllLines_
+  commentId: Overload:funkylib.common.FileExt.readAllLines
+  isSpec: "True"
+  fullName: funkylib.common.FileExt.readAllLines
+  nameWithType: FileExt.readAllLines
+- uid: funkylib.common.FileExt.readFile*
+  name: readFile
+  href: api/funkylib.common.FileExt.html#funkylib_common_FileExt_readFile_
+  commentId: Overload:funkylib.common.FileExt.readFile
+  isSpec: "True"
+  fullName: funkylib.common.FileExt.readFile
+  nameWithType: FileExt.readFile
+- uid: funkylib.common.FileExt.readFile``1(funkylib.common.File,System.Func{System.IO.StreamReader,``0})
+  name: readFile<R>(File, Func<StreamReader, R>)
+  href: api/funkylib.common.FileExt.html#funkylib_common_FileExt_readFile__1_funkylib_common_File_System_Func_System_IO_StreamReader___0__
+  commentId: M:funkylib.common.FileExt.readFile``1(funkylib.common.File,System.Func{System.IO.StreamReader,``0})
+  name.vb: readFile(Of R)(File, Func(Of StreamReader, R))
+  fullName: funkylib.common.FileExt.readFile<R>(funkylib.common.File, System.Func<System.IO.StreamReader, R>)
+  fullName.vb: funkylib.common.FileExt.readFile(Of R)(funkylib.common.File, System.Func(Of System.IO.StreamReader, R))
+  nameWithType: FileExt.readFile<R>(File, Func<StreamReader, R>)
+  nameWithType.vb: FileExt.readFile(Of R)(File, Func(Of StreamReader, R))
+- uid: funkylib.common.FuncExt
+  name: FuncExt
+  href: api/funkylib.common.FuncExt.html
+  commentId: T:funkylib.common.FuncExt
+  fullName: funkylib.common.FuncExt
+  nameWithType: FuncExt
+- uid: funkylib.common.FuncExt.apply*
+  name: apply
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_apply_
+  commentId: Overload:funkylib.common.FuncExt.apply
+  isSpec: "True"
+  fullName: funkylib.common.FuncExt.apply
+  nameWithType: FuncExt.apply
+- uid: funkylib.common.FuncExt.apply``3(System.Func{``0,``1,``2},``0)
+  name: apply<A, B, R>(Func<A, B, R>, A)
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_apply__3_System_Func___0___1___2____0_
+  commentId: M:funkylib.common.FuncExt.apply``3(System.Func{``0,``1,``2},``0)
+  name.vb: apply(Of A, B, R)(Func(Of A, B, R), A)
+  fullName: funkylib.common.FuncExt.apply<A, B, R>(System.Func<A, B, R>, A)
+  fullName.vb: funkylib.common.FuncExt.apply(Of A, B, R)(System.Func(Of A, B, R), A)
+  nameWithType: FuncExt.apply<A, B, R>(Func<A, B, R>, A)
+  nameWithType.vb: FuncExt.apply(Of A, B, R)(Func(Of A, B, R), A)
+- uid: funkylib.common.FuncExt.map*
+  name: map
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_map_
+  commentId: Overload:funkylib.common.FuncExt.map
+  isSpec: "True"
+  fullName: funkylib.common.FuncExt.map
+  nameWithType: FuncExt.map
+- uid: funkylib.common.FuncExt.map``2(System.Func{``0},System.Func{``0,``1})
+  name: map<A, R>(Func<A>, Func<A, R>)
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_map__2_System_Func___0__System_Func___0___1__
+  commentId: M:funkylib.common.FuncExt.map``2(System.Func{``0},System.Func{``0,``1})
+  name.vb: map(Of A, R)(Func(Of A), Func(Of A, R))
+  fullName: funkylib.common.FuncExt.map<A, R>(System.Func<A>, System.Func<A, R>)
+  fullName.vb: funkylib.common.FuncExt.map(Of A, R)(System.Func(Of A), System.Func(Of A, R))
+  nameWithType: FuncExt.map<A, R>(Func<A>, Func<A, R>)
+  nameWithType.vb: FuncExt.map(Of A, R)(Func(Of A), Func(Of A, R))
+- uid: funkylib.common.FuncExt.map``2(System.Func{``0},System.Func{``0,System.Func{``1}})
+  name: map<A, R>(Func<A>, Func<A, Func<R>>)
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_map__2_System_Func___0__System_Func___0_System_Func___1___
+  commentId: M:funkylib.common.FuncExt.map``2(System.Func{``0},System.Func{``0,System.Func{``1}})
+  name.vb: map(Of A, R)(Func(Of A), Func(Of A, Func(Of R)))
+  fullName: funkylib.common.FuncExt.map<A, R>(System.Func<A>, System.Func<A, System.Func<R>>)
+  fullName.vb: funkylib.common.FuncExt.map(Of A, R)(System.Func(Of A), System.Func(Of A, System.Func(Of R)))
+  nameWithType: FuncExt.map<A, R>(Func<A>, Func<A, Func<R>>)
+  nameWithType.vb: FuncExt.map(Of A, R)(Func(Of A), Func(Of A, Func(Of R)))
+- uid: funkylib.common.FuncExt.map``3(System.Func{``0,``1},System.Func{``1,``2})
+  name: map<Reader, T, R>(Func<Reader, T>, Func<T, R>)
+  href: api/funkylib.common.FuncExt.html#funkylib_common_FuncExt_map__3_System_Func___0___1__System_Func___1___2__
+  commentId: M:funkylib.common.FuncExt.map``3(System.Func{``0,``1},System.Func{``1,``2})
+  name.vb: map(Of Reader, T, R)(Func(Of Reader, T), Func(Of T, R))
+  fullName: funkylib.common.FuncExt.map<Reader, T, R>(System.Func<Reader, T>, System.Func<T, R>)
+  fullName.vb: funkylib.common.FuncExt.map(Of Reader, T, R)(System.Func(Of Reader, T), System.Func(Of T, R))
+  nameWithType: FuncExt.map<Reader, T, R>(Func<Reader, T>, Func<T, R>)
+  nameWithType.vb: FuncExt.map(Of Reader, T, R)(Func(Of Reader, T), Func(Of T, R))
+- uid: funkylib.common.ValueTypes
+  name: funkylib.common.ValueTypes
+  href: api/funkylib.common.ValueTypes.html
+  commentId: N:funkylib.common.ValueTypes
+  fullName: funkylib.common.ValueTypes
+  nameWithType: funkylib.common.ValueTypes
+- uid: funkylib.common.ValueTypes.Double
+  name: Double
+  href: api/funkylib.common.ValueTypes.Double.html
+  commentId: T:funkylib.common.ValueTypes.Double
+  fullName: funkylib.common.ValueTypes.Double
+  nameWithType: Double
+- uid: funkylib.common.ValueTypes.Double.parse(System.String)
+  name: parse(String)
+  href: api/funkylib.common.ValueTypes.Double.html#funkylib_common_ValueTypes_Double_parse_System_String_
+  commentId: M:funkylib.common.ValueTypes.Double.parse(System.String)
+  fullName: funkylib.common.ValueTypes.Double.parse(System.String)
+  nameWithType: Double.parse(String)
+- uid: funkylib.common.ValueTypes.Double.parse*
+  name: parse
+  href: api/funkylib.common.ValueTypes.Double.html#funkylib_common_ValueTypes_Double_parse_
+  commentId: Overload:funkylib.common.ValueTypes.Double.parse
+  isSpec: "True"
+  fullName: funkylib.common.ValueTypes.Double.parse
+  nameWithType: Double.parse
+- uid: funkylib.common.ValueTypes.Int
+  name: Int
+  href: api/funkylib.common.ValueTypes.Int.html
+  commentId: T:funkylib.common.ValueTypes.Int
+  fullName: funkylib.common.ValueTypes.Int
+  nameWithType: Int
+- uid: funkylib.common.ValueTypes.Int.parse(System.String)
+  name: parse(String)
+  href: api/funkylib.common.ValueTypes.Int.html#funkylib_common_ValueTypes_Int_parse_System_String_
+  commentId: M:funkylib.common.ValueTypes.Int.parse(System.String)
+  fullName: funkylib.common.ValueTypes.Int.parse(System.String)
+  nameWithType: Int.parse(String)
+- uid: funkylib.common.ValueTypes.Int.parse*
+  name: parse
+  href: api/funkylib.common.ValueTypes.Int.html#funkylib_common_ValueTypes_Int_parse_
+  commentId: Overload:funkylib.common.ValueTypes.Int.parse
+  isSpec: "True"
+  fullName: funkylib.common.ValueTypes.Int.parse
+  nameWithType: Int.parse
+- uid: funkylib.Either
+  name: Either
+  href: api/funkylib.Either.html
+  commentId: T:funkylib.Either
+  fullName: funkylib.Either
+  nameWithType: Either
+- uid: funkylib.Either.Left*
+  name: Left
+  href: api/funkylib.Either.html#funkylib_Either_Left_
+  commentId: Overload:funkylib.Either.Left
+  isSpec: "True"
+  fullName: funkylib.Either.Left
+  nameWithType: Either.Left
+- uid: funkylib.Either.Left``1(``0)
+  name: Left<L>(L)
+  href: api/funkylib.Either.html#funkylib_Either_Left__1___0_
+  commentId: M:funkylib.Either.Left``1(``0)
+  name.vb: Left(Of L)(L)
+  fullName: funkylib.Either.Left<L>(L)
+  fullName.vb: funkylib.Either.Left(Of L)(L)
+  nameWithType: Either.Left<L>(L)
+  nameWithType.vb: Either.Left(Of L)(L)
+- uid: funkylib.Either.Right*
+  name: Right
+  href: api/funkylib.Either.html#funkylib_Either_Right_
+  commentId: Overload:funkylib.Either.Right
+  isSpec: "True"
+  fullName: funkylib.Either.Right
+  nameWithType: Either.Right
+- uid: funkylib.Either.Right``1(``0)
+  name: Right<R>(R)
+  href: api/funkylib.Either.html#funkylib_Either_Right__1___0_
+  commentId: M:funkylib.Either.Right``1(``0)
+  name.vb: Right(Of R)(R)
+  fullName: funkylib.Either.Right<R>(R)
+  fullName.vb: funkylib.Either.Right(Of R)(R)
+  nameWithType: Either.Right<R>(R)
+  nameWithType.vb: Either.Right(Of R)(R)
+- uid: funkylib.Either`2
+  name: Either<L, R>
+  href: api/funkylib.Either-2.html
+  commentId: T:funkylib.Either`2
+  name.vb: Either(Of L, R)
+  fullName: funkylib.Either<L, R>
+  fullName.vb: funkylib.Either(Of L, R)
+  nameWithType: Either<L, R>
+  nameWithType.vb: Either(Of L, R)
+- uid: funkylib.Either`2.__unsafeGetLeft
+  name: __unsafeGetLeft
+  href: api/funkylib.Either-2.html#funkylib_Either_2___unsafeGetLeft
+  commentId: P:funkylib.Either`2.__unsafeGetLeft
+  fullName: funkylib.Either<L, R>.__unsafeGetLeft
+  fullName.vb: funkylib.Either(Of L, R).__unsafeGetLeft
+  nameWithType: Either<L, R>.__unsafeGetLeft
+  nameWithType.vb: Either(Of L, R).__unsafeGetLeft
+- uid: funkylib.Either`2.__unsafeGetLeft*
+  name: __unsafeGetLeft
+  href: api/funkylib.Either-2.html#funkylib_Either_2___unsafeGetLeft_
+  commentId: Overload:funkylib.Either`2.__unsafeGetLeft
+  isSpec: "True"
+  fullName: funkylib.Either<L, R>.__unsafeGetLeft
+  fullName.vb: funkylib.Either(Of L, R).__unsafeGetLeft
+  nameWithType: Either<L, R>.__unsafeGetLeft
+  nameWithType.vb: Either(Of L, R).__unsafeGetLeft
+- uid: funkylib.Either`2.__unsafeGetRight
+  name: __unsafeGetRight
+  href: api/funkylib.Either-2.html#funkylib_Either_2___unsafeGetRight
+  commentId: P:funkylib.Either`2.__unsafeGetRight
+  fullName: funkylib.Either<L, R>.__unsafeGetRight
+  fullName.vb: funkylib.Either(Of L, R).__unsafeGetRight
+  nameWithType: Either<L, R>.__unsafeGetRight
+  nameWithType.vb: Either(Of L, R).__unsafeGetRight
+- uid: funkylib.Either`2.__unsafeGetRight*
+  name: __unsafeGetRight
+  href: api/funkylib.Either-2.html#funkylib_Either_2___unsafeGetRight_
+  commentId: Overload:funkylib.Either`2.__unsafeGetRight
+  isSpec: "True"
+  fullName: funkylib.Either<L, R>.__unsafeGetRight
+  fullName.vb: funkylib.Either(Of L, R).__unsafeGetRight
+  nameWithType: Either<L, R>.__unsafeGetRight
+  nameWithType.vb: Either(Of L, R).__unsafeGetRight
+- uid: funkylib.Either`2.fold(System.Action{`0},System.Action{`1})
+  name: fold(Action<L>, Action<R>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_fold_System_Action__0__System_Action__1__
+  commentId: M:funkylib.Either`2.fold(System.Action{`0},System.Action{`1})
+  name.vb: fold(Action(Of L), Action(Of R))
+  fullName: funkylib.Either<L, R>.fold(System.Action<L>, System.Action<R>)
+  fullName.vb: funkylib.Either(Of L, R).fold(System.Action(Of L), System.Action(Of R))
+  nameWithType: Either<L, R>.fold(Action<L>, Action<R>)
+  nameWithType.vb: Either(Of L, R).fold(Action(Of L), Action(Of R))
+- uid: funkylib.Either`2.fold*
+  name: fold
+  href: api/funkylib.Either-2.html#funkylib_Either_2_fold_
+  commentId: Overload:funkylib.Either`2.fold
+  isSpec: "True"
+  fullName: funkylib.Either<L, R>.fold
+  fullName.vb: funkylib.Either(Of L, R).fold
+  nameWithType: Either<L, R>.fold
+  nameWithType.vb: Either(Of L, R).fold
+- uid: funkylib.Either`2.fold``1(System.Func{`0,``0},System.Func{`1,``0})
+  name: fold<AR>(Func<L, AR>, Func<R, AR>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_fold__1_System_Func__0___0__System_Func__1___0__
+  commentId: M:funkylib.Either`2.fold``1(System.Func{`0,``0},System.Func{`1,``0})
+  name.vb: fold(Of AR)(Func(Of L, AR), Func(Of R, AR))
+  fullName: funkylib.Either<L, R>.fold<AR>(System.Func<L, AR>, System.Func<R, AR>)
+  fullName.vb: funkylib.Either(Of L, R).fold(Of AR)(System.Func(Of L, AR), System.Func(Of R, AR))
+  nameWithType: Either<L, R>.fold<AR>(Func<L, AR>, Func<R, AR>)
+  nameWithType.vb: Either(Of L, R).fold(Of AR)(Func(Of L, AR), Func(Of R, AR))
+- uid: funkylib.Either`2.isLeft
+  name: isLeft
+  href: api/funkylib.Either-2.html#funkylib_Either_2_isLeft
+  commentId: P:funkylib.Either`2.isLeft
+  fullName: funkylib.Either<L, R>.isLeft
+  fullName.vb: funkylib.Either(Of L, R).isLeft
+  nameWithType: Either<L, R>.isLeft
+  nameWithType.vb: Either(Of L, R).isLeft
+- uid: funkylib.Either`2.isLeft*
+  name: isLeft
+  href: api/funkylib.Either-2.html#funkylib_Either_2_isLeft_
+  commentId: Overload:funkylib.Either`2.isLeft
+  isSpec: "True"
+  fullName: funkylib.Either<L, R>.isLeft
+  fullName.vb: funkylib.Either(Of L, R).isLeft
+  nameWithType: Either<L, R>.isLeft
+  nameWithType.vb: Either(Of L, R).isLeft
+- uid: funkylib.Either`2.op_Implicit(`0)~funkylib.Either{`0,`1}
+  name: Implicit(L to Either<L, R>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_op_Implicit__0__funkylib_Either__0__1_
+  commentId: M:funkylib.Either`2.op_Implicit(`0)~funkylib.Either{`0,`1}
+  name.vb: Widening(L to Either(Of L, R))
+  fullName: funkylib.Either<L, R>.Implicit(L to funkylib.Either<L, R>)
+  fullName.vb: funkylib.Either(Of L, R).Widening(L to funkylib.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(L to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(L to Either(Of L, R))
+- uid: funkylib.Either`2.op_Implicit(`1)~funkylib.Either{`0,`1}
+  name: Implicit(R to Either<L, R>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_op_Implicit__1__funkylib_Either__0__1_
+  commentId: M:funkylib.Either`2.op_Implicit(`1)~funkylib.Either{`0,`1}
+  name.vb: Widening(R to Either(Of L, R))
+  fullName: funkylib.Either<L, R>.Implicit(R to funkylib.Either<L, R>)
+  fullName.vb: funkylib.Either(Of L, R).Widening(R to funkylib.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(R to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(R to Either(Of L, R))
+- uid: funkylib.Either`2.op_Implicit(funkylib.Left{`0})~funkylib.Either{`0,`1}
+  name: Implicit(Left<L> to Either<L, R>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_op_Implicit_funkylib_Left__0___funkylib_Either__0__1_
+  commentId: M:funkylib.Either`2.op_Implicit(funkylib.Left{`0})~funkylib.Either{`0,`1}
+  name.vb: Widening(Left(Of L) to Either(Of L, R))
+  fullName: funkylib.Either<L, R>.Implicit(funkylib.Left<L> to funkylib.Either<L, R>)
+  fullName.vb: funkylib.Either(Of L, R).Widening(funkylib.Left(Of L) to funkylib.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(Left<L> to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(Left(Of L) to Either(Of L, R))
+- uid: funkylib.Either`2.op_Implicit(funkylib.Right{`1})~funkylib.Either{`0,`1}
+  name: Implicit(Right<R> to Either<L, R>)
+  href: api/funkylib.Either-2.html#funkylib_Either_2_op_Implicit_funkylib_Right__1___funkylib_Either__0__1_
+  commentId: M:funkylib.Either`2.op_Implicit(funkylib.Right{`1})~funkylib.Either{`0,`1}
+  name.vb: Widening(Right(Of R) to Either(Of L, R))
+  fullName: funkylib.Either<L, R>.Implicit(funkylib.Right<R> to funkylib.Either<L, R>)
+  fullName.vb: funkylib.Either(Of L, R).Widening(funkylib.Right(Of R) to funkylib.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(Right<R> to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(Right(Of R) to Either(Of L, R))
+- uid: funkylib.Either`2.op_Implicit*
+  name: Implicit
+  href: api/funkylib.Either-2.html#funkylib_Either_2_op_Implicit_
+  commentId: Overload:funkylib.Either`2.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: funkylib.Either<L, R>.Implicit
+  fullName.vb: funkylib.Either(Of L, R).Widening
+  nameWithType: Either<L, R>.Implicit
+  nameWithType.vb: Either(Of L, R).Widening
+- uid: funkylib.Either`2.ToString
+  name: ToString()
+  href: api/funkylib.Either-2.html#funkylib_Either_2_ToString
+  commentId: M:funkylib.Either`2.ToString
+  fullName: funkylib.Either<L, R>.ToString()
+  fullName.vb: funkylib.Either(Of L, R).ToString()
+  nameWithType: Either<L, R>.ToString()
+  nameWithType.vb: Either(Of L, R).ToString()
+- uid: funkylib.Either`2.ToString*
+  name: ToString
+  href: api/funkylib.Either-2.html#funkylib_Either_2_ToString_
+  commentId: Overload:funkylib.Either`2.ToString
+  isSpec: "True"
+  fullName: funkylib.Either<L, R>.ToString
+  fullName.vb: funkylib.Either(Of L, R).ToString
+  nameWithType: Either<L, R>.ToString
+  nameWithType.vb: Either(Of L, R).ToString
+- uid: funkylib.EitherExt
+  name: EitherExt
+  href: api/funkylib.EitherExt.html
+  commentId: T:funkylib.EitherExt
+  fullName: funkylib.EitherExt
+  nameWithType: EitherExt
+- uid: funkylib.EitherExt.flatMap*
+  name: flatMap
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_flatMap_
+  commentId: Overload:funkylib.EitherExt.flatMap
+  isSpec: "True"
+  fullName: funkylib.EitherExt.flatMap
+  nameWithType: EitherExt.flatMap
+- uid: funkylib.EitherExt.flatMap``3(funkylib.Either{``0,``1},System.Func{``1,funkylib.Either{``0,``2}})
+  name: flatMap<L, R, RR>(Either<L, R>, Func<R, Either<L, RR>>)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_flatMap__3_funkylib_Either___0___1__System_Func___1_funkylib_Either___0___2___
+  commentId: M:funkylib.EitherExt.flatMap``3(funkylib.Either{``0,``1},System.Func{``1,funkylib.Either{``0,``2}})
+  name.vb: flatMap(Of L, R, RR)(Either(Of L, R), Func(Of R, Either(Of L, RR)))
+  fullName: funkylib.EitherExt.flatMap<L, R, RR>(funkylib.Either<L, R>, System.Func<R, funkylib.Either<L, RR>>)
+  fullName.vb: funkylib.EitherExt.flatMap(Of L, R, RR)(funkylib.Either(Of L, R), System.Func(Of R, funkylib.Either(Of L, RR)))
+  nameWithType: EitherExt.flatMap<L, R, RR>(Either<L, R>, Func<R, Either<L, RR>>)
+  nameWithType.vb: EitherExt.flatMap(Of L, R, RR)(Either(Of L, R), Func(Of R, Either(Of L, RR)))
+- uid: funkylib.EitherExt.left*
+  name: left
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_left_
+  commentId: Overload:funkylib.EitherExt.left
+  isSpec: "True"
+  fullName: funkylib.EitherExt.left
+  nameWithType: EitherExt.left
+- uid: funkylib.EitherExt.left``1(``0)
+  name: left<L>(L)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_left__1___0_
+  commentId: M:funkylib.EitherExt.left``1(``0)
+  name.vb: left(Of L)(L)
+  fullName: funkylib.EitherExt.left<L>(L)
+  fullName.vb: funkylib.EitherExt.left(Of L)(L)
+  nameWithType: EitherExt.left<L>(L)
+  nameWithType.vb: EitherExt.left(Of L)(L)
+- uid: funkylib.EitherExt.leftMap*
+  name: leftMap
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_leftMap_
+  commentId: Overload:funkylib.EitherExt.leftMap
+  isSpec: "True"
+  fullName: funkylib.EitherExt.leftMap
+  nameWithType: EitherExt.leftMap
+- uid: funkylib.EitherExt.leftMap``3(funkylib.Either{``0,``2},System.Func{``0,``1})
+  name: leftMap<L, LL, R>(Either<L, R>, Func<L, LL>)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_leftMap__3_funkylib_Either___0___2__System_Func___0___1__
+  commentId: M:funkylib.EitherExt.leftMap``3(funkylib.Either{``0,``2},System.Func{``0,``1})
+  name.vb: leftMap(Of L, LL, R)(Either(Of L, R), Func(Of L, LL))
+  fullName: funkylib.EitherExt.leftMap<L, LL, R>(funkylib.Either<L, R>, System.Func<L, LL>)
+  fullName.vb: funkylib.EitherExt.leftMap(Of L, LL, R)(funkylib.Either(Of L, R), System.Func(Of L, LL))
+  nameWithType: EitherExt.leftMap<L, LL, R>(Either<L, R>, Func<L, LL>)
+  nameWithType.vb: EitherExt.leftMap(Of L, LL, R)(Either(Of L, R), Func(Of L, LL))
+- uid: funkylib.EitherExt.map*
+  name: map
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_map_
+  commentId: Overload:funkylib.EitherExt.map
+  isSpec: "True"
+  fullName: funkylib.EitherExt.map
+  nameWithType: EitherExt.map
+- uid: funkylib.EitherExt.map``3(funkylib.Either{``0,``1},System.Func{``1,``2})
+  name: map<L, R, RR>(Either<L, R>, Func<R, RR>)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_map__3_funkylib_Either___0___1__System_Func___1___2__
+  commentId: M:funkylib.EitherExt.map``3(funkylib.Either{``0,``1},System.Func{``1,``2})
+  name.vb: map(Of L, R, RR)(Either(Of L, R), Func(Of R, RR))
+  fullName: funkylib.EitherExt.map<L, R, RR>(funkylib.Either<L, R>, System.Func<R, RR>)
+  fullName.vb: funkylib.EitherExt.map(Of L, R, RR)(funkylib.Either(Of L, R), System.Func(Of R, RR))
+  nameWithType: EitherExt.map<L, R, RR>(Either<L, R>, Func<R, RR>)
+  nameWithType.vb: EitherExt.map(Of L, R, RR)(Either(Of L, R), Func(Of R, RR))
+- uid: funkylib.EitherExt.orElse*
+  name: orElse
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_orElse_
+  commentId: Overload:funkylib.EitherExt.orElse
+  isSpec: "True"
+  fullName: funkylib.EitherExt.orElse
+  nameWithType: EitherExt.orElse
+- uid: funkylib.EitherExt.orElse``2(funkylib.Either{``0,``1},System.Func{funkylib.Either{``0,``1}})
+  name: orElse<L, R>(Either<L, R>, Func<Either<L, R>>)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_orElse__2_funkylib_Either___0___1__System_Func_funkylib_Either___0___1___
+  commentId: M:funkylib.EitherExt.orElse``2(funkylib.Either{``0,``1},System.Func{funkylib.Either{``0,``1}})
+  name.vb: orElse(Of L, R)(Either(Of L, R), Func(Of Either(Of L, R)))
+  fullName: funkylib.EitherExt.orElse<L, R>(funkylib.Either<L, R>, System.Func<funkylib.Either<L, R>>)
+  fullName.vb: funkylib.EitherExt.orElse(Of L, R)(funkylib.Either(Of L, R), System.Func(Of funkylib.Either(Of L, R)))
+  nameWithType: EitherExt.orElse<L, R>(Either<L, R>, Func<Either<L, R>>)
+  nameWithType.vb: EitherExt.orElse(Of L, R)(Either(Of L, R), Func(Of Either(Of L, R)))
+- uid: funkylib.EitherExt.right*
+  name: right
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_right_
+  commentId: Overload:funkylib.EitherExt.right
+  isSpec: "True"
+  fullName: funkylib.EitherExt.right
+  nameWithType: EitherExt.right
+- uid: funkylib.EitherExt.right``1(``0)
+  name: right<R>(R)
+  href: api/funkylib.EitherExt.html#funkylib_EitherExt_right__1___0_
+  commentId: M:funkylib.EitherExt.right``1(``0)
+  name.vb: right(Of R)(R)
+  fullName: funkylib.EitherExt.right<R>(R)
+  fullName.vb: funkylib.EitherExt.right(Of R)(R)
+  nameWithType: EitherExt.right<R>(R)
+  nameWithType.vb: EitherExt.right(Of R)(R)
+- uid: funkylib.Extensions
+  name: Extensions
+  href: api/funkylib.Extensions.html
+  commentId: T:funkylib.Extensions
+  fullName: funkylib.Extensions
+  nameWithType: Extensions
+- uid: funkylib.Extensions.toFunc(System.Action)
+  name: toFunc(Action)
+  href: api/funkylib.Extensions.html#funkylib_Extensions_toFunc_System_Action_
+  commentId: M:funkylib.Extensions.toFunc(System.Action)
+  fullName: funkylib.Extensions.toFunc(System.Action)
+  nameWithType: Extensions.toFunc(Action)
+- uid: funkylib.Extensions.toFunc*
+  name: toFunc
+  href: api/funkylib.Extensions.html#funkylib_Extensions_toFunc_
+  commentId: Overload:funkylib.Extensions.toFunc
+  isSpec: "True"
+  fullName: funkylib.Extensions.toFunc
+  nameWithType: Extensions.toFunc
+- uid: funkylib.Extensions.toFunc``1(System.Action{``0})
+  name: toFunc<A>(Action<A>)
+  href: api/funkylib.Extensions.html#funkylib_Extensions_toFunc__1_System_Action___0__
+  commentId: M:funkylib.Extensions.toFunc``1(System.Action{``0})
+  name.vb: toFunc(Of A)(Action(Of A))
+  fullName: funkylib.Extensions.toFunc<A>(System.Action<A>)
+  fullName.vb: funkylib.Extensions.toFunc(Of A)(System.Action(Of A))
+  nameWithType: Extensions.toFunc<A>(Action<A>)
+  nameWithType.vb: Extensions.toFunc(Of A)(Action(Of A))
+- uid: funkylib.F
+  name: F
+  href: api/funkylib.F.html
+  commentId: T:funkylib.F
+  fullName: funkylib.F
+  nameWithType: F
+- uid: funkylib.F.curry*
+  name: curry
+  href: api/funkylib.F.html#funkylib_F_curry_
+  commentId: Overload:funkylib.F.curry
+  isSpec: "True"
+  fullName: funkylib.F.curry
+  nameWithType: F.curry
+- uid: funkylib.F.curry``3(System.Func{``0,``1,``2})
+  name: curry<A, B, R>(Func<A, B, R>)
+  href: api/funkylib.F.html#funkylib_F_curry__3_System_Func___0___1___2__
+  commentId: M:funkylib.F.curry``3(System.Func{``0,``1,``2})
+  name.vb: curry(Of A, B, R)(Func(Of A, B, R))
+  fullName: funkylib.F.curry<A, B, R>(System.Func<A, B, R>)
+  fullName.vb: funkylib.F.curry(Of A, B, R)(System.Func(Of A, B, R))
+  nameWithType: F.curry<A, B, R>(Func<A, B, R>)
+  nameWithType.vb: F.curry(Of A, B, R)(Func(Of A, B, R))
+- uid: funkylib.F.curry``4(System.Func{``0,``1,``2,``3})
+  name: curry<A, B, C, R>(Func<A, B, C, R>)
+  href: api/funkylib.F.html#funkylib_F_curry__4_System_Func___0___1___2___3__
+  commentId: M:funkylib.F.curry``4(System.Func{``0,``1,``2,``3})
+  name.vb: curry(Of A, B, C, R)(Func(Of A, B, C, R))
+  fullName: funkylib.F.curry<A, B, C, R>(System.Func<A, B, C, R>)
+  fullName.vb: funkylib.F.curry(Of A, B, C, R)(System.Func(Of A, B, C, R))
+  nameWithType: F.curry<A, B, C, R>(Func<A, B, C, R>)
+  nameWithType.vb: F.curry(Of A, B, C, R)(Func(Of A, B, C, R))
+- uid: funkylib.F.Try*
+  name: Try
+  href: api/funkylib.F.html#funkylib_F_Try_
+  commentId: Overload:funkylib.F.Try
+  isSpec: "True"
+  fullName: funkylib.F.Try
+  nameWithType: F.Try
+- uid: funkylib.F.Try``1(System.Func{``0})
+  name: Try<A>(Func<A>)
+  href: api/funkylib.F.html#funkylib_F_Try__1_System_Func___0__
+  commentId: M:funkylib.F.Try``1(System.Func{``0})
+  name.vb: Try(Of A)(Func(Of A))
+  fullName: funkylib.F.Try<A>(System.Func<A>)
+  fullName.vb: funkylib.F.Try(Of A)(System.Func(Of A))
+  nameWithType: F.Try<A>(Func<A>)
+  nameWithType.vb: F.Try(Of A)(Func(Of A))
+- uid: funkylib.F.using*
+  name: using
+  href: api/funkylib.F.html#funkylib_F_using_
+  commentId: Overload:funkylib.F.using
+  isSpec: "True"
+  fullName: funkylib.F.using
+  nameWithType: F.using
+- uid: funkylib.F.using``2(``0,System.Func{``0,``1})
+  name: using<A, R>(A, Func<A, R>)
+  href: api/funkylib.F.html#funkylib_F_using__2___0_System_Func___0___1__
+  commentId: M:funkylib.F.using``2(``0,System.Func{``0,``1})
+  name.vb: using(Of A, R)(A, Func(Of A, R))
+  fullName: funkylib.F.using<A, R>(A, System.Func<A, R>)
+  fullName.vb: funkylib.F.using(Of A, R)(A, System.Func(Of A, R))
+  nameWithType: F.using<A, R>(A, Func<A, R>)
+  nameWithType.vb: F.using(Of A, R)(A, Func(Of A, R))
+- uid: funkylib.IEnumerableExt
+  name: IEnumerableExt
+  href: api/funkylib.IEnumerableExt.html
+  commentId: T:funkylib.IEnumerableExt
+  fullName: funkylib.IEnumerableExt
+  nameWithType: IEnumerableExt
+- uid: funkylib.IEnumerableExt.append*
+  name: append
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_append_
+  commentId: Overload:funkylib.IEnumerableExt.append
+  isSpec: "True"
+  fullName: funkylib.IEnumerableExt.append
+  nameWithType: IEnumerableExt.append
+- uid: funkylib.IEnumerableExt.append``1(System.Collections.Generic.IEnumerable{``0},``0[])
+  name: append<T>(IEnumerable<T>, T[])
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_append__1_System_Collections_Generic_IEnumerable___0____0___
+  commentId: M:funkylib.IEnumerableExt.append``1(System.Collections.Generic.IEnumerable{``0},``0[])
+  name.vb: append(Of T)(IEnumerable(Of T), T())
+  fullName: funkylib.IEnumerableExt.append<T>(System.Collections.Generic.IEnumerable<T>, T[])
+  fullName.vb: funkylib.IEnumerableExt.append(Of T)(System.Collections.Generic.IEnumerable(Of T), T())
+  nameWithType: IEnumerableExt.append<T>(IEnumerable<T>, T[])
+  nameWithType.vb: IEnumerableExt.append(Of T)(IEnumerable(Of T), T())
+- uid: funkylib.IEnumerableExt.flatMap*
+  name: flatMap
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_flatMap_
+  commentId: Overload:funkylib.IEnumerableExt.flatMap
+  isSpec: "True"
+  fullName: funkylib.IEnumerableExt.flatMap
+  nameWithType: IEnumerableExt.flatMap
+- uid: funkylib.IEnumerableExt.flatMap``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
+  name: flatMap<A, R>(IEnumerable<A>, Func<A, IEnumerable<R>>)
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_flatMap__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___
+  commentId: M:funkylib.IEnumerableExt.flatMap``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})
+  name.vb: flatMap(Of A, R)(IEnumerable(Of A), Func(Of A, IEnumerable(Of R)))
+  fullName: funkylib.IEnumerableExt.flatMap<A, R>(System.Collections.Generic.IEnumerable<A>, System.Func<A, System.Collections.Generic.IEnumerable<R>>)
+  fullName.vb: funkylib.IEnumerableExt.flatMap(Of A, R)(System.Collections.Generic.IEnumerable(Of A), System.Func(Of A, System.Collections.Generic.IEnumerable(Of R)))
+  nameWithType: IEnumerableExt.flatMap<A, R>(IEnumerable<A>, Func<A, IEnumerable<R>>)
+  nameWithType.vb: IEnumerableExt.flatMap(Of A, R)(IEnumerable(Of A), Func(Of A, IEnumerable(Of R)))
+- uid: funkylib.IEnumerableExt.flatten*
+  name: flatten
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_flatten_
+  commentId: Overload:funkylib.IEnumerableExt.flatten
+  isSpec: "True"
+  fullName: funkylib.IEnumerableExt.flatten
+  nameWithType: IEnumerableExt.flatten
+- uid: funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name: flatten<A>(IEnumerable<IEnumerable<A>>)
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  commentId: M:funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name.vb: flatten(Of A)(IEnumerable(Of IEnumerable(Of A)))
+  fullName: funkylib.IEnumerableExt.flatten<A>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<A>>)
+  fullName.vb: funkylib.IEnumerableExt.flatten(Of A)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of A)))
+  nameWithType: IEnumerableExt.flatten<A>(IEnumerable<IEnumerable<A>>)
+  nameWithType.vb: IEnumerableExt.flatten(Of A)(IEnumerable(Of IEnumerable(Of A)))
+- uid: funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Immutable.ImmutableArray{``0}})
+  name: flatten<A>(IEnumerable<ImmutableArray<A>>)
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Immutable_ImmutableArray___0___
+  commentId: M:funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Immutable.ImmutableArray{``0}})
+  name.vb: flatten(Of A)(IEnumerable(Of ImmutableArray(Of A)))
+  fullName: funkylib.IEnumerableExt.flatten<A>(System.Collections.Generic.IEnumerable<System.Collections.Immutable.ImmutableArray<A>>)
+  fullName.vb: funkylib.IEnumerableExt.flatten(Of A)(System.Collections.Generic.IEnumerable(Of System.Collections.Immutable.ImmutableArray(Of A)))
+  nameWithType: IEnumerableExt.flatten<A>(IEnumerable<ImmutableArray<A>>)
+  nameWithType.vb: IEnumerableExt.flatten(Of A)(IEnumerable(Of ImmutableArray(Of A)))
+- uid: funkylib.IEnumerableExt.map*
+  name: map
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_map_
+  commentId: Overload:funkylib.IEnumerableExt.map
+  isSpec: "True"
+  fullName: funkylib.IEnumerableExt.map
+  nameWithType: IEnumerableExt.map
+- uid: funkylib.IEnumerableExt.map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: map<A, R>(IEnumerable<A>, Func<A, R>)
+  href: api/funkylib.IEnumerableExt.html#funkylib_IEnumerableExt_map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:funkylib.IEnumerableExt.map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: map(Of A, R)(IEnumerable(Of A), Func(Of A, R))
+  fullName: funkylib.IEnumerableExt.map<A, R>(System.Collections.Generic.IEnumerable<A>, System.Func<A, R>)
+  fullName.vb: funkylib.IEnumerableExt.map(Of A, R)(System.Collections.Generic.IEnumerable(Of A), System.Func(Of A, R))
+  nameWithType: IEnumerableExt.map<A, R>(IEnumerable<A>, Func<A, R>)
+  nameWithType.vb: IEnumerableExt.map(Of A, R)(IEnumerable(Of A), Func(Of A, R))
+- uid: funkylib.IO
+  name: IO
+  href: api/funkylib.IO.html
+  commentId: T:funkylib.IO
+  fullName: funkylib.IO
+  nameWithType: IO
+- uid: funkylib.IO.empty
+  name: empty
+  href: api/funkylib.IO.html#funkylib_IO_empty
+  commentId: F:funkylib.IO.empty
+  fullName: funkylib.IO.empty
+  nameWithType: IO.empty
+- uid: funkylib.IO.return(System.Action)
+  name: return(Action)
+  href: api/funkylib.IO.html#funkylib_IO_return_System_Action_
+  commentId: M:funkylib.IO.return(System.Action)
+  fullName: funkylib.IO.return(System.Action)
+  nameWithType: IO.return(Action)
+- uid: funkylib.IO.return*
+  name: return
+  href: api/funkylib.IO.html#funkylib_IO_return_
+  commentId: Overload:funkylib.IO.return
+  isSpec: "True"
+  fullName: funkylib.IO.return
+  nameWithType: IO.return
+- uid: funkylib.IO.return``1(System.Func{``0})
+  name: return<A>(Func<A>)
+  href: api/funkylib.IO.html#funkylib_IO_return__1_System_Func___0__
+  commentId: M:funkylib.IO.return``1(System.Func{``0})
+  name.vb: return(Of A)(Func(Of A))
+  fullName: funkylib.IO.return<A>(System.Func<A>)
+  fullName.vb: funkylib.IO.return(Of A)(System.Func(Of A))
+  nameWithType: IO.return<A>(Func<A>)
+  nameWithType.vb: IO.return(Of A)(Func(Of A))
+- uid: funkylib.IO`1
+  name: IO<A>
+  href: api/funkylib.IO-1.html
+  commentId: T:funkylib.IO`1
+  name.vb: IO(Of A)
+  fullName: funkylib.IO<A>
+  fullName.vb: funkylib.IO(Of A)
+  nameWithType: IO<A>
+  nameWithType.vb: IO(Of A)
+- uid: funkylib.IO`1.#ctor(System.Func{`0})
+  name: IO(Func<A>)
+  href: api/funkylib.IO-1.html#funkylib_IO_1__ctor_System_Func__0__
+  commentId: M:funkylib.IO`1.#ctor(System.Func{`0})
+  name.vb: IO(Func(Of A))
+  fullName: funkylib.IO<A>.IO(System.Func<A>)
+  fullName.vb: funkylib.IO(Of A).IO(System.Func(Of A))
+  nameWithType: IO<A>.IO(Func<A>)
+  nameWithType.vb: IO(Of A).IO(Func(Of A))
+- uid: funkylib.IO`1.#ctor*
+  name: IO
+  href: api/funkylib.IO-1.html#funkylib_IO_1__ctor_
+  commentId: Overload:funkylib.IO`1.#ctor
+  isSpec: "True"
+  fullName: funkylib.IO<A>.IO
+  fullName.vb: funkylib.IO(Of A).IO
+  nameWithType: IO<A>.IO
+  nameWithType.vb: IO(Of A).IO
+- uid: funkylib.IO`1.andThen*
+  name: andThen
+  href: api/funkylib.IO-1.html#funkylib_IO_1_andThen_
+  commentId: Overload:funkylib.IO`1.andThen
+  isSpec: "True"
+  fullName: funkylib.IO<A>.andThen
+  fullName.vb: funkylib.IO(Of A).andThen
+  nameWithType: IO<A>.andThen
+  nameWithType.vb: IO(Of A).andThen
+- uid: funkylib.IO`1.andThen``1(funkylib.IO{``0})
+  name: andThen<B>(IO<B>)
+  href: api/funkylib.IO-1.html#funkylib_IO_1_andThen__1_funkylib_IO___0__
+  commentId: M:funkylib.IO`1.andThen``1(funkylib.IO{``0})
+  name.vb: andThen(Of B)(IO(Of B))
+  fullName: funkylib.IO<A>.andThen<B>(funkylib.IO<B>)
+  fullName.vb: funkylib.IO(Of A).andThen(Of B)(funkylib.IO(Of B))
+  nameWithType: IO<A>.andThen<B>(IO<B>)
+  nameWithType.vb: IO(Of A).andThen(Of B)(IO(Of B))
+- uid: funkylib.IO`1.flatMap*
+  name: flatMap
+  href: api/funkylib.IO-1.html#funkylib_IO_1_flatMap_
+  commentId: Overload:funkylib.IO`1.flatMap
+  isSpec: "True"
+  fullName: funkylib.IO<A>.flatMap
+  fullName.vb: funkylib.IO(Of A).flatMap
+  nameWithType: IO<A>.flatMap
+  nameWithType.vb: IO(Of A).flatMap
+- uid: funkylib.IO`1.flatMap``1(System.Func{`0,funkylib.IO{``0}})
+  name: flatMap<B>(Func<A, IO<B>>)
+  href: api/funkylib.IO-1.html#funkylib_IO_1_flatMap__1_System_Func__0_funkylib_IO___0___
+  commentId: M:funkylib.IO`1.flatMap``1(System.Func{`0,funkylib.IO{``0}})
+  name.vb: flatMap(Of B)(Func(Of A, IO(Of B)))
+  fullName: funkylib.IO<A>.flatMap<B>(System.Func<A, funkylib.IO<B>>)
+  fullName.vb: funkylib.IO(Of A).flatMap(Of B)(System.Func(Of A, funkylib.IO(Of B)))
+  nameWithType: IO<A>.flatMap<B>(Func<A, IO<B>>)
+  nameWithType.vb: IO(Of A).flatMap(Of B)(Func(Of A, IO(Of B)))
+- uid: funkylib.IO`1.map*
+  name: map
+  href: api/funkylib.IO-1.html#funkylib_IO_1_map_
+  commentId: Overload:funkylib.IO`1.map
+  isSpec: "True"
+  fullName: funkylib.IO<A>.map
+  fullName.vb: funkylib.IO(Of A).map
+  nameWithType: IO<A>.map
+  nameWithType.vb: IO(Of A).map
+- uid: funkylib.IO`1.map``1(System.Func{`0,``0})
+  name: map<B>(Func<A, B>)
+  href: api/funkylib.IO-1.html#funkylib_IO_1_map__1_System_Func__0___0__
+  commentId: M:funkylib.IO`1.map``1(System.Func{`0,``0})
+  name.vb: map(Of B)(Func(Of A, B))
+  fullName: funkylib.IO<A>.map<B>(System.Func<A, B>)
+  fullName.vb: funkylib.IO(Of A).map(Of B)(System.Func(Of A, B))
+  nameWithType: IO<A>.map<B>(Func<A, B>)
+  nameWithType.vb: IO(Of A).map(Of B)(Func(Of A, B))
+- uid: funkylib.IO`1.unsafeRun
+  name: unsafeRun()
+  href: api/funkylib.IO-1.html#funkylib_IO_1_unsafeRun
+  commentId: M:funkylib.IO`1.unsafeRun
+  fullName: funkylib.IO<A>.unsafeRun()
+  fullName.vb: funkylib.IO(Of A).unsafeRun()
+  nameWithType: IO<A>.unsafeRun()
+  nameWithType.vb: IO(Of A).unsafeRun()
+- uid: funkylib.IO`1.unsafeRun*
+  name: unsafeRun
+  href: api/funkylib.IO-1.html#funkylib_IO_1_unsafeRun_
+  commentId: Overload:funkylib.IO`1.unsafeRun
+  isSpec: "True"
+  fullName: funkylib.IO<A>.unsafeRun
+  fullName.vb: funkylib.IO(Of A).unsafeRun
+  nameWithType: IO<A>.unsafeRun
+  nameWithType.vb: IO(Of A).unsafeRun
+- uid: funkylib.Left`1
+  name: Left<L>
+  href: api/funkylib.Left-1.html
+  commentId: T:funkylib.Left`1
+  name.vb: Left(Of L)
+  fullName: funkylib.Left<L>
+  fullName.vb: funkylib.Left(Of L)
+  nameWithType: Left<L>
+  nameWithType.vb: Left(Of L)
+- uid: funkylib.Left`1.ToString
+  name: ToString()
+  href: api/funkylib.Left-1.html#funkylib_Left_1_ToString
+  commentId: M:funkylib.Left`1.ToString
+  fullName: funkylib.Left<L>.ToString()
+  fullName.vb: funkylib.Left(Of L).ToString()
+  nameWithType: Left<L>.ToString()
+  nameWithType.vb: Left(Of L).ToString()
+- uid: funkylib.Left`1.ToString*
+  name: ToString
+  href: api/funkylib.Left-1.html#funkylib_Left_1_ToString_
+  commentId: Overload:funkylib.Left`1.ToString
+  isSpec: "True"
+  fullName: funkylib.Left<L>.ToString
+  fullName.vb: funkylib.Left(Of L).ToString
+  nameWithType: Left<L>.ToString
+  nameWithType.vb: Left(Of L).ToString
+- uid: funkylib.None
+  name: None
+  href: api/funkylib.None.html
+  commentId: T:funkylib.None
+  fullName: funkylib.None
+  nameWithType: None
+- uid: funkylib.Option
+  name: Option
+  href: api/funkylib.Option.html
+  commentId: T:funkylib.Option
+  fullName: funkylib.Option
+  nameWithType: Option
+- uid: funkylib.Option.None
+  name: None
+  href: api/funkylib.Option.html#funkylib_Option_None
+  commentId: P:funkylib.Option.None
+  fullName: funkylib.Option.None
+  nameWithType: Option.None
+- uid: funkylib.Option.None*
+  name: None
+  href: api/funkylib.Option.html#funkylib_Option_None_
+  commentId: Overload:funkylib.Option.None
+  isSpec: "True"
+  fullName: funkylib.Option.None
+  nameWithType: Option.None
+- uid: funkylib.Option.Some*
+  name: Some
+  href: api/funkylib.Option.html#funkylib_Option_Some_
+  commentId: Overload:funkylib.Option.Some
+  isSpec: "True"
+  fullName: funkylib.Option.Some
+  nameWithType: Option.Some
+- uid: funkylib.Option.Some``1(``0)
+  name: Some<A>(A)
+  href: api/funkylib.Option.html#funkylib_Option_Some__1___0_
+  commentId: M:funkylib.Option.Some``1(``0)
+  name.vb: Some(Of A)(A)
+  fullName: funkylib.Option.Some<A>(A)
+  fullName.vb: funkylib.Option.Some(Of A)(A)
+  nameWithType: Option.Some<A>(A)
+  nameWithType.vb: Option.Some(Of A)(A)
+- uid: funkylib.Option`1
+  name: Option<A>
+  href: api/funkylib.Option-1.html
+  commentId: T:funkylib.Option`1
+  name.vb: Option(Of A)
+  fullName: funkylib.Option<A>
+  fullName.vb: funkylib.Option(Of A)
+  nameWithType: Option<A>
+  nameWithType.vb: Option(Of A)
+- uid: funkylib.Option`1._unsafe
+  name: _unsafe
+  href: api/funkylib.Option-1.html#funkylib_Option_1__unsafe
+  commentId: P:funkylib.Option`1._unsafe
+  fullName: funkylib.Option<A>._unsafe
+  fullName.vb: funkylib.Option(Of A)._unsafe
+  nameWithType: Option<A>._unsafe
+  nameWithType.vb: Option(Of A)._unsafe
+- uid: funkylib.Option`1._unsafe*
+  name: _unsafe
+  href: api/funkylib.Option-1.html#funkylib_Option_1__unsafe_
+  commentId: Overload:funkylib.Option`1._unsafe
+  isSpec: "True"
+  fullName: funkylib.Option<A>._unsafe
+  fullName.vb: funkylib.Option(Of A)._unsafe
+  nameWithType: Option<A>._unsafe
+  nameWithType.vb: Option(Of A)._unsafe
+- uid: funkylib.Option`1.Equals(funkylib.None)
+  name: Equals(None)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_Equals_funkylib_None_
+  commentId: M:funkylib.Option`1.Equals(funkylib.None)
+  fullName: funkylib.Option<A>.Equals(funkylib.None)
+  fullName.vb: funkylib.Option(Of A).Equals(funkylib.None)
+  nameWithType: Option<A>.Equals(None)
+  nameWithType.vb: Option(Of A).Equals(None)
+- uid: funkylib.Option`1.Equals(funkylib.Option{`0})
+  name: Equals(Option<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_Equals_funkylib_Option__0__
+  commentId: M:funkylib.Option`1.Equals(funkylib.Option{`0})
+  name.vb: Equals(Option(Of A))
+  fullName: funkylib.Option<A>.Equals(funkylib.Option<A>)
+  fullName.vb: funkylib.Option(Of A).Equals(funkylib.Option(Of A))
+  nameWithType: Option<A>.Equals(Option<A>)
+  nameWithType.vb: Option(Of A).Equals(Option(Of A))
+- uid: funkylib.Option`1.Equals*
+  name: Equals
+  href: api/funkylib.Option-1.html#funkylib_Option_1_Equals_
+  commentId: Overload:funkylib.Option`1.Equals
+  isSpec: "True"
+  fullName: funkylib.Option<A>.Equals
+  fullName.vb: funkylib.Option(Of A).Equals
+  nameWithType: Option<A>.Equals
+  nameWithType.vb: Option(Of A).Equals
+- uid: funkylib.Option`1.fold(System.Action,System.Action{`0})
+  name: fold(Action, Action<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_fold_System_Action_System_Action__0__
+  commentId: M:funkylib.Option`1.fold(System.Action,System.Action{`0})
+  name.vb: fold(Action, Action(Of A))
+  fullName: funkylib.Option<A>.fold(System.Action, System.Action<A>)
+  fullName.vb: funkylib.Option(Of A).fold(System.Action, System.Action(Of A))
+  nameWithType: Option<A>.fold(Action, Action<A>)
+  nameWithType.vb: Option(Of A).fold(Action, Action(Of A))
+- uid: funkylib.Option`1.fold*
+  name: fold
+  href: api/funkylib.Option-1.html#funkylib_Option_1_fold_
+  commentId: Overload:funkylib.Option`1.fold
+  isSpec: "True"
+  fullName: funkylib.Option<A>.fold
+  fullName.vb: funkylib.Option(Of A).fold
+  nameWithType: Option<A>.fold
+  nameWithType.vb: Option(Of A).fold
+- uid: funkylib.Option`1.fold``1(System.Func{``0},System.Func{`0,``0})
+  name: fold<R>(Func<R>, Func<A, R>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_fold__1_System_Func___0__System_Func__0___0__
+  commentId: M:funkylib.Option`1.fold``1(System.Func{``0},System.Func{`0,``0})
+  name.vb: fold(Of R)(Func(Of R), Func(Of A, R))
+  fullName: funkylib.Option<A>.fold<R>(System.Func<R>, System.Func<A, R>)
+  fullName.vb: funkylib.Option(Of A).fold(Of R)(System.Func(Of R), System.Func(Of A, R))
+  nameWithType: Option<A>.fold<R>(Func<R>, Func<A, R>)
+  nameWithType.vb: Option(Of A).fold(Of R)(Func(Of R), Func(Of A, R))
+- uid: funkylib.Option`1.foreach(System.Action{`0})
+  name: foreach(Action<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_foreach_System_Action__0__
+  commentId: M:funkylib.Option`1.foreach(System.Action{`0})
+  name.vb: foreach(Action(Of A))
+  fullName: funkylib.Option<A>.foreach(System.Action<A>)
+  fullName.vb: funkylib.Option(Of A).foreach(System.Action(Of A))
+  nameWithType: Option<A>.foreach(Action<A>)
+  nameWithType.vb: Option(Of A).foreach(Action(Of A))
+- uid: funkylib.Option`1.foreach*
+  name: foreach
+  href: api/funkylib.Option-1.html#funkylib_Option_1_foreach_
+  commentId: Overload:funkylib.Option`1.foreach
+  isSpec: "True"
+  fullName: funkylib.Option<A>.foreach
+  fullName.vb: funkylib.Option(Of A).foreach
+  nameWithType: Option<A>.foreach
+  nameWithType.vb: Option(Of A).foreach
+- uid: funkylib.Option`1.isNone
+  name: isNone
+  href: api/funkylib.Option-1.html#funkylib_Option_1_isNone
+  commentId: P:funkylib.Option`1.isNone
+  fullName: funkylib.Option<A>.isNone
+  fullName.vb: funkylib.Option(Of A).isNone
+  nameWithType: Option<A>.isNone
+  nameWithType.vb: Option(Of A).isNone
+- uid: funkylib.Option`1.isNone*
+  name: isNone
+  href: api/funkylib.Option-1.html#funkylib_Option_1_isNone_
+  commentId: Overload:funkylib.Option`1.isNone
+  isSpec: "True"
+  fullName: funkylib.Option<A>.isNone
+  fullName.vb: funkylib.Option(Of A).isNone
+  nameWithType: Option<A>.isNone
+  nameWithType.vb: Option(Of A).isNone
+- uid: funkylib.Option`1.isSome
+  name: isSome
+  href: api/funkylib.Option-1.html#funkylib_Option_1_isSome
+  commentId: F:funkylib.Option`1.isSome
+  fullName: funkylib.Option<A>.isSome
+  fullName.vb: funkylib.Option(Of A).isSome
+  nameWithType: Option<A>.isSome
+  nameWithType.vb: Option(Of A).isSome
+- uid: funkylib.Option`1.op_BitwiseOr(funkylib.Option{`0},funkylib.Option{`0})
+  name: BitwiseOr(Option<A>, Option<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_BitwiseOr_funkylib_Option__0__funkylib_Option__0__
+  commentId: M:funkylib.Option`1.op_BitwiseOr(funkylib.Option{`0},funkylib.Option{`0})
+  name.vb: BitwiseOr(Option(Of A), Option(Of A))
+  fullName: funkylib.Option<A>.BitwiseOr(funkylib.Option<A>, funkylib.Option<A>)
+  fullName.vb: funkylib.Option(Of A).BitwiseOr(funkylib.Option(Of A), funkylib.Option(Of A))
+  nameWithType: Option<A>.BitwiseOr(Option<A>, Option<A>)
+  nameWithType.vb: Option(Of A).BitwiseOr(Option(Of A), Option(Of A))
+- uid: funkylib.Option`1.op_BitwiseOr*
+  name: BitwiseOr
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_BitwiseOr_
+  commentId: Overload:funkylib.Option`1.op_BitwiseOr
+  isSpec: "True"
+  fullName: funkylib.Option<A>.BitwiseOr
+  fullName.vb: funkylib.Option(Of A).BitwiseOr
+  nameWithType: Option<A>.BitwiseOr
+  nameWithType.vb: Option(Of A).BitwiseOr
+- uid: funkylib.Option`1.op_Implicit(`0)~funkylib.Option{`0}
+  name: Implicit(A to Option<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_Implicit__0__funkylib_Option__0_
+  commentId: M:funkylib.Option`1.op_Implicit(`0)~funkylib.Option{`0}
+  name.vb: Widening(A to Option(Of A))
+  fullName: funkylib.Option<A>.Implicit(A to funkylib.Option<A>)
+  fullName.vb: funkylib.Option(Of A).Widening(A to funkylib.Option(Of A))
+  nameWithType: Option<A>.Implicit(A to Option<A>)
+  nameWithType.vb: Option(Of A).Widening(A to Option(Of A))
+- uid: funkylib.Option`1.op_Implicit(funkylib.None)~funkylib.Option{`0}
+  name: Implicit(None to Option<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_Implicit_funkylib_None__funkylib_Option__0_
+  commentId: M:funkylib.Option`1.op_Implicit(funkylib.None)~funkylib.Option{`0}
+  name.vb: Widening(None to Option(Of A))
+  fullName: funkylib.Option<A>.Implicit(funkylib.None to funkylib.Option<A>)
+  fullName.vb: funkylib.Option(Of A).Widening(funkylib.None to funkylib.Option(Of A))
+  nameWithType: Option<A>.Implicit(None to Option<A>)
+  nameWithType.vb: Option(Of A).Widening(None to Option(Of A))
+- uid: funkylib.Option`1.op_Implicit(funkylib.Some{`0})~funkylib.Option{`0}
+  name: Implicit(Some<A> to Option<A>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_Implicit_funkylib_Some__0___funkylib_Option__0_
+  commentId: M:funkylib.Option`1.op_Implicit(funkylib.Some{`0})~funkylib.Option{`0}
+  name.vb: Widening(Some(Of A) to Option(Of A))
+  fullName: funkylib.Option<A>.Implicit(funkylib.Some<A> to funkylib.Option<A>)
+  fullName.vb: funkylib.Option(Of A).Widening(funkylib.Some(Of A) to funkylib.Option(Of A))
+  nameWithType: Option<A>.Implicit(Some<A> to Option<A>)
+  nameWithType.vb: Option(Of A).Widening(Some(Of A) to Option(Of A))
+- uid: funkylib.Option`1.op_Implicit*
+  name: Implicit
+  href: api/funkylib.Option-1.html#funkylib_Option_1_op_Implicit_
+  commentId: Overload:funkylib.Option`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: funkylib.Option<A>.Implicit
+  fullName.vb: funkylib.Option(Of A).Widening
+  nameWithType: Option<A>.Implicit
+  nameWithType.vb: Option(Of A).Widening
+- uid: funkylib.Option`1.ToString
+  name: ToString()
+  href: api/funkylib.Option-1.html#funkylib_Option_1_ToString
+  commentId: M:funkylib.Option`1.ToString
+  fullName: funkylib.Option<A>.ToString()
+  fullName.vb: funkylib.Option(Of A).ToString()
+  nameWithType: Option<A>.ToString()
+  nameWithType.vb: Option(Of A).ToString()
+- uid: funkylib.Option`1.ToString*
+  name: ToString
+  href: api/funkylib.Option-1.html#funkylib_Option_1_ToString_
+  commentId: Overload:funkylib.Option`1.ToString
+  isSpec: "True"
+  fullName: funkylib.Option<A>.ToString
+  fullName.vb: funkylib.Option(Of A).ToString
+  nameWithType: Option<A>.ToString
+  nameWithType.vb: Option(Of A).ToString
+- uid: funkylib.Option`1.zip*
+  name: zip
+  href: api/funkylib.Option-1.html#funkylib_Option_1_zip_
+  commentId: Overload:funkylib.Option`1.zip
+  isSpec: "True"
+  fullName: funkylib.Option<A>.zip
+  fullName.vb: funkylib.Option(Of A).zip
+  nameWithType: Option<A>.zip
+  nameWithType.vb: Option(Of A).zip
+- uid: funkylib.Option`1.zip``2(funkylib.Option{``0},System.Func{`0,``0,``1})
+  name: zip<B, C>(Option<B>, Func<A, B, C>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_zip__2_funkylib_Option___0__System_Func__0___0___1__
+  commentId: M:funkylib.Option`1.zip``2(funkylib.Option{``0},System.Func{`0,``0,``1})
+  name.vb: zip(Of B, C)(Option(Of B), Func(Of A, B, C))
+  fullName: funkylib.Option<A>.zip<B, C>(funkylib.Option<B>, System.Func<A, B, C>)
+  fullName.vb: funkylib.Option(Of A).zip(Of B, C)(funkylib.Option(Of B), System.Func(Of A, B, C))
+  nameWithType: Option<A>.zip<B, C>(Option<B>, Func<A, B, C>)
+  nameWithType.vb: Option(Of A).zip(Of B, C)(Option(Of B), Func(Of A, B, C))
+- uid: funkylib.Option`1.zip``3(funkylib.Option{``0},funkylib.Option{``1},System.Func{`0,``0,``1,``2})
+  name: zip<B, C, D>(Option<B>, Option<C>, Func<A, B, C, D>)
+  href: api/funkylib.Option-1.html#funkylib_Option_1_zip__3_funkylib_Option___0__funkylib_Option___1__System_Func__0___0___1___2__
+  commentId: M:funkylib.Option`1.zip``3(funkylib.Option{``0},funkylib.Option{``1},System.Func{`0,``0,``1,``2})
+  name.vb: zip(Of B, C, D)(Option(Of B), Option(Of C), Func(Of A, B, C, D))
+  fullName: funkylib.Option<A>.zip<B, C, D>(funkylib.Option<B>, funkylib.Option<C>, System.Func<A, B, C, D>)
+  fullName.vb: funkylib.Option(Of A).zip(Of B, C, D)(funkylib.Option(Of B), funkylib.Option(Of C), System.Func(Of A, B, C, D))
+  nameWithType: Option<A>.zip<B, C, D>(Option<B>, Option<C>, Func<A, B, C, D>)
+  nameWithType.vb: Option(Of A).zip(Of B, C, D)(Option(Of B), Option(Of C), Func(Of A, B, C, D))
+- uid: funkylib.OptionExt
+  name: OptionExt
+  href: api/funkylib.OptionExt.html
+  commentId: T:funkylib.OptionExt
+  fullName: funkylib.OptionExt
+  nameWithType: OptionExt
+- uid: funkylib.OptionExt.asEnumerable*
+  name: asEnumerable
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_asEnumerable_
+  commentId: Overload:funkylib.OptionExt.asEnumerable
+  isSpec: "True"
+  fullName: funkylib.OptionExt.asEnumerable
+  nameWithType: OptionExt.asEnumerable
+- uid: funkylib.OptionExt.asEnumerable``1(System.Collections.Generic.IEnumerable{funkylib.Option{``0}})
+  name: asEnumerable<A>(IEnumerable<Option<A>>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_asEnumerable__1_System_Collections_Generic_IEnumerable_funkylib_Option___0___
+  commentId: M:funkylib.OptionExt.asEnumerable``1(System.Collections.Generic.IEnumerable{funkylib.Option{``0}})
+  name.vb: asEnumerable(Of A)(IEnumerable(Of Option(Of A)))
+  fullName: funkylib.OptionExt.asEnumerable<A>(System.Collections.Generic.IEnumerable<funkylib.Option<A>>)
+  fullName.vb: funkylib.OptionExt.asEnumerable(Of A)(System.Collections.Generic.IEnumerable(Of funkylib.Option(Of A)))
+  nameWithType: OptionExt.asEnumerable<A>(IEnumerable<Option<A>>)
+  nameWithType.vb: OptionExt.asEnumerable(Of A)(IEnumerable(Of Option(Of A)))
+- uid: funkylib.OptionExt.exist*
+  name: exist
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_exist_
+  commentId: Overload:funkylib.OptionExt.exist
+  isSpec: "True"
+  fullName: funkylib.OptionExt.exist
+  nameWithType: OptionExt.exist
+- uid: funkylib.OptionExt.exist``1(funkylib.Option{``0},funkylib.Option{``0})
+  name: exist<A>(Option<A>, Option<A>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_exist__1_funkylib_Option___0__funkylib_Option___0__
+  commentId: M:funkylib.OptionExt.exist``1(funkylib.Option{``0},funkylib.Option{``0})
+  name.vb: exist(Of A)(Option(Of A), Option(Of A))
+  fullName: funkylib.OptionExt.exist<A>(funkylib.Option<A>, funkylib.Option<A>)
+  fullName.vb: funkylib.OptionExt.exist(Of A)(funkylib.Option(Of A), funkylib.Option(Of A))
+  nameWithType: OptionExt.exist<A>(Option<A>, Option<A>)
+  nameWithType.vb: OptionExt.exist(Of A)(Option(Of A), Option(Of A))
+- uid: funkylib.OptionExt.find*
+  name: find
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_find_
+  commentId: Overload:funkylib.OptionExt.find
+  isSpec: "True"
+  fullName: funkylib.OptionExt.find
+  nameWithType: OptionExt.find
+- uid: funkylib.OptionExt.find``1(funkylib.Option{``0},System.Func{``0,System.Boolean})
+  name: find<A>(Option<A>, Func<A, Boolean>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_find__1_funkylib_Option___0__System_Func___0_System_Boolean__
+  commentId: M:funkylib.OptionExt.find``1(funkylib.Option{``0},System.Func{``0,System.Boolean})
+  name.vb: find(Of A)(Option(Of A), Func(Of A, Boolean))
+  fullName: funkylib.OptionExt.find<A>(funkylib.Option<A>, System.Func<A, System.Boolean>)
+  fullName.vb: funkylib.OptionExt.find(Of A)(funkylib.Option(Of A), System.Func(Of A, System.Boolean))
+  nameWithType: OptionExt.find<A>(Option<A>, Func<A, Boolean>)
+  nameWithType.vb: OptionExt.find(Of A)(Option(Of A), Func(Of A, Boolean))
+- uid: funkylib.OptionExt.flatMap*
+  name: flatMap
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_flatMap_
+  commentId: Overload:funkylib.OptionExt.flatMap
+  isSpec: "True"
+  fullName: funkylib.OptionExt.flatMap
+  nameWithType: OptionExt.flatMap
+- uid: funkylib.OptionExt.flatMap``2(funkylib.Option{``0},System.Func{``0,funkylib.Option{``1}})
+  name: flatMap<A, R>(Option<A>, Func<A, Option<R>>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_flatMap__2_funkylib_Option___0__System_Func___0_funkylib_Option___1___
+  commentId: M:funkylib.OptionExt.flatMap``2(funkylib.Option{``0},System.Func{``0,funkylib.Option{``1}})
+  name.vb: flatMap(Of A, R)(Option(Of A), Func(Of A, Option(Of R)))
+  fullName: funkylib.OptionExt.flatMap<A, R>(funkylib.Option<A>, System.Func<A, funkylib.Option<R>>)
+  fullName.vb: funkylib.OptionExt.flatMap(Of A, R)(funkylib.Option(Of A), System.Func(Of A, funkylib.Option(Of R)))
+  nameWithType: OptionExt.flatMap<A, R>(Option<A>, Func<A, Option<R>>)
+  nameWithType.vb: OptionExt.flatMap(Of A, R)(Option(Of A), Func(Of A, Option(Of R)))
+- uid: funkylib.OptionExt.map*
+  name: map
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_map_
+  commentId: Overload:funkylib.OptionExt.map
+  isSpec: "True"
+  fullName: funkylib.OptionExt.map
+  nameWithType: OptionExt.map
+- uid: funkylib.OptionExt.map``2(funkylib.Option{``0},System.Func{``0,``1})
+  name: map<A, R>(Option<A>, Func<A, R>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_map__2_funkylib_Option___0__System_Func___0___1__
+  commentId: M:funkylib.OptionExt.map``2(funkylib.Option{``0},System.Func{``0,``1})
+  name.vb: map(Of A, R)(Option(Of A), Func(Of A, R))
+  fullName: funkylib.OptionExt.map<A, R>(funkylib.Option<A>, System.Func<A, R>)
+  fullName.vb: funkylib.OptionExt.map(Of A, R)(funkylib.Option(Of A), System.Func(Of A, R))
+  nameWithType: OptionExt.map<A, R>(Option<A>, Func<A, R>)
+  nameWithType.vb: OptionExt.map(Of A, R)(Option(Of A), Func(Of A, R))
+- uid: funkylib.OptionExt.orElse*
+  name: orElse
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_orElse_
+  commentId: Overload:funkylib.OptionExt.orElse
+  isSpec: "True"
+  fullName: funkylib.OptionExt.orElse
+  nameWithType: OptionExt.orElse
+- uid: funkylib.OptionExt.orElse``3(funkylib.Option{``0},System.Func{funkylib.Option{``1}},System.Func{``0,``2},System.Func{``1,``2})
+  name: orElse<A, B, C>(Option<A>, Func<Option<B>>, Func<A, C>, Func<B, C>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_orElse__3_funkylib_Option___0__System_Func_funkylib_Option___1___System_Func___0___2__System_Func___1___2__
+  commentId: M:funkylib.OptionExt.orElse``3(funkylib.Option{``0},System.Func{funkylib.Option{``1}},System.Func{``0,``2},System.Func{``1,``2})
+  name.vb: orElse(Of A, B, C)(Option(Of A), Func(Of Option(Of B)), Func(Of A, C), Func(Of B, C))
+  fullName: funkylib.OptionExt.orElse<A, B, C>(funkylib.Option<A>, System.Func<funkylib.Option<B>>, System.Func<A, C>, System.Func<B, C>)
+  fullName.vb: funkylib.OptionExt.orElse(Of A, B, C)(funkylib.Option(Of A), System.Func(Of funkylib.Option(Of B)), System.Func(Of A, C), System.Func(Of B, C))
+  nameWithType: OptionExt.orElse<A, B, C>(Option<A>, Func<Option<B>>, Func<A, C>, Func<B, C>)
+  nameWithType.vb: OptionExt.orElse(Of A, B, C)(Option(Of A), Func(Of Option(Of B)), Func(Of A, C), Func(Of B, C))
+- uid: funkylib.OptionExt.some*
+  name: some
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_some_
+  commentId: Overload:funkylib.OptionExt.some
+  isSpec: "True"
+  fullName: funkylib.OptionExt.some
+  nameWithType: OptionExt.some
+- uid: funkylib.OptionExt.some``1(``0)
+  name: some<A>(A)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_some__1___0_
+  commentId: M:funkylib.OptionExt.some``1(``0)
+  name.vb: some(Of A)(A)
+  fullName: funkylib.OptionExt.some<A>(A)
+  fullName.vb: funkylib.OptionExt.some(Of A)(A)
+  nameWithType: OptionExt.some<A>(A)
+  nameWithType.vb: OptionExt.some(Of A)(A)
+- uid: funkylib.OptionExt.traverse*
+  name: traverse
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_traverse_
+  commentId: Overload:funkylib.OptionExt.traverse
+  isSpec: "True"
+  fullName: funkylib.OptionExt.traverse
+  nameWithType: OptionExt.traverse
+- uid: funkylib.OptionExt.traverse``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,funkylib.Option{``1}})
+  name: traverse<T, R>(IEnumerable<T>, Func<T, Option<R>>)
+  href: api/funkylib.OptionExt.html#funkylib_OptionExt_traverse__2_System_Collections_Generic_IEnumerable___0__System_Func___0_funkylib_Option___1___
+  commentId: M:funkylib.OptionExt.traverse``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,funkylib.Option{``1}})
+  name.vb: traverse(Of T, R)(IEnumerable(Of T), Func(Of T, Option(Of R)))
+  fullName: funkylib.OptionExt.traverse<T, R>(System.Collections.Generic.IEnumerable<T>, System.Func<T, funkylib.Option<R>>)
+  fullName.vb: funkylib.OptionExt.traverse(Of T, R)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, funkylib.Option(Of R)))
+  nameWithType: OptionExt.traverse<T, R>(IEnumerable<T>, Func<T, Option<R>>)
+  nameWithType.vb: OptionExt.traverse(Of T, R)(IEnumerable(Of T), Func(Of T, Option(Of R)))
+- uid: funkylib.Right`1
+  name: Right<R>
+  href: api/funkylib.Right-1.html
+  commentId: T:funkylib.Right`1
+  name.vb: Right(Of R)
+  fullName: funkylib.Right<R>
+  fullName.vb: funkylib.Right(Of R)
+  nameWithType: Right<R>
+  nameWithType.vb: Right(Of R)
+- uid: funkylib.Right`1.flatMap*
+  name: flatMap
+  href: api/funkylib.Right-1.html#funkylib_Right_1_flatMap_
+  commentId: Overload:funkylib.Right`1.flatMap
+  isSpec: "True"
+  fullName: funkylib.Right<R>.flatMap
+  fullName.vb: funkylib.Right(Of R).flatMap
+  nameWithType: Right<R>.flatMap
+  nameWithType.vb: Right(Of R).flatMap
+- uid: funkylib.Right`1.flatMap``2(System.Func{`0,funkylib.Either{``0,``1}})
+  name: flatMap<L, RR>(Func<R, Either<L, RR>>)
+  href: api/funkylib.Right-1.html#funkylib_Right_1_flatMap__2_System_Func__0_funkylib_Either___0___1___
+  commentId: M:funkylib.Right`1.flatMap``2(System.Func{`0,funkylib.Either{``0,``1}})
+  name.vb: flatMap(Of L, RR)(Func(Of R, Either(Of L, RR)))
+  fullName: funkylib.Right<R>.flatMap<L, RR>(System.Func<R, funkylib.Either<L, RR>>)
+  fullName.vb: funkylib.Right(Of R).flatMap(Of L, RR)(System.Func(Of R, funkylib.Either(Of L, RR)))
+  nameWithType: Right<R>.flatMap<L, RR>(Func<R, Either<L, RR>>)
+  nameWithType.vb: Right(Of R).flatMap(Of L, RR)(Func(Of R, Either(Of L, RR)))
+- uid: funkylib.Right`1.map*
+  name: map
+  href: api/funkylib.Right-1.html#funkylib_Right_1_map_
+  commentId: Overload:funkylib.Right`1.map
+  isSpec: "True"
+  fullName: funkylib.Right<R>.map
+  fullName.vb: funkylib.Right(Of R).map
+  nameWithType: Right<R>.map
+  nameWithType.vb: Right(Of R).map
+- uid: funkylib.Right`1.map``1(System.Func{`0,``0})
+  name: map<RR>(Func<R, RR>)
+  href: api/funkylib.Right-1.html#funkylib_Right_1_map__1_System_Func__0___0__
+  commentId: M:funkylib.Right`1.map``1(System.Func{`0,``0})
+  name.vb: map(Of RR)(Func(Of R, RR))
+  fullName: funkylib.Right<R>.map<RR>(System.Func<R, RR>)
+  fullName.vb: funkylib.Right(Of R).map(Of RR)(System.Func(Of R, RR))
+  nameWithType: Right<R>.map<RR>(Func<R, RR>)
+  nameWithType.vb: Right(Of R).map(Of RR)(Func(Of R, RR))
+- uid: funkylib.Right`1.ToString
+  name: ToString()
+  href: api/funkylib.Right-1.html#funkylib_Right_1_ToString
+  commentId: M:funkylib.Right`1.ToString
+  fullName: funkylib.Right<R>.ToString()
+  fullName.vb: funkylib.Right(Of R).ToString()
+  nameWithType: Right<R>.ToString()
+  nameWithType.vb: Right(Of R).ToString()
+- uid: funkylib.Right`1.ToString*
+  name: ToString
+  href: api/funkylib.Right-1.html#funkylib_Right_1_ToString_
+  commentId: Overload:funkylib.Right`1.ToString
+  isSpec: "True"
+  fullName: funkylib.Right<R>.ToString
+  fullName.vb: funkylib.Right(Of R).ToString
+  nameWithType: Right<R>.ToString
+  nameWithType.vb: Right(Of R).ToString
+- uid: funkylib.Some`1
+  name: Some<A>
+  href: api/funkylib.Some-1.html
+  commentId: T:funkylib.Some`1
+  name.vb: Some(Of A)
+  fullName: funkylib.Some<A>
+  fullName.vb: funkylib.Some(Of A)
+  nameWithType: Some<A>
+  nameWithType.vb: Some(Of A)
+- uid: funkylib.Try`1
+  name: Try<A>
+  href: api/funkylib.Try-1.html
+  commentId: T:funkylib.Try`1
+  name.vb: Try(Of A)
+  fullName: funkylib.Try<A>
+  fullName.vb: funkylib.Try(Of A)
+  nameWithType: Try<A>
+  nameWithType.vb: Try(Of A)
+- uid: funkylib.TryExt
+  name: TryExt
+  href: api/funkylib.TryExt.html
+  commentId: T:funkylib.TryExt
+  fullName: funkylib.TryExt
+  nameWithType: TryExt
+- uid: funkylib.TryExt.flatMap*
+  name: flatMap
+  href: api/funkylib.TryExt.html#funkylib_TryExt_flatMap_
+  commentId: Overload:funkylib.TryExt.flatMap
+  isSpec: "True"
+  fullName: funkylib.TryExt.flatMap
+  nameWithType: TryExt.flatMap
+- uid: funkylib.TryExt.flatMap``2(funkylib.Try{``0},System.Func{``0,funkylib.Try{``1}})
+  name: flatMap<A, R>(Try<A>, Func<A, Try<R>>)
+  href: api/funkylib.TryExt.html#funkylib_TryExt_flatMap__2_funkylib_Try___0__System_Func___0_funkylib_Try___1___
+  commentId: M:funkylib.TryExt.flatMap``2(funkylib.Try{``0},System.Func{``0,funkylib.Try{``1}})
+  name.vb: flatMap(Of A, R)(Try(Of A), Func(Of A, Try(Of R)))
+  fullName: funkylib.TryExt.flatMap<A, R>(funkylib.Try<A>, System.Func<A, funkylib.Try<R>>)
+  fullName.vb: funkylib.TryExt.flatMap(Of A, R)(funkylib.Try(Of A), System.Func(Of A, funkylib.Try(Of R)))
+  nameWithType: TryExt.flatMap<A, R>(Try<A>, Func<A, Try<R>>)
+  nameWithType.vb: TryExt.flatMap(Of A, R)(Try(Of A), Func(Of A, Try(Of R)))
+- uid: funkylib.TryExt.map*
+  name: map
+  href: api/funkylib.TryExt.html#funkylib_TryExt_map_
+  commentId: Overload:funkylib.TryExt.map
+  isSpec: "True"
+  fullName: funkylib.TryExt.map
+  nameWithType: TryExt.map
+- uid: funkylib.TryExt.map``2(funkylib.Try{``0},System.Func{``0,``1})
+  name: map<A, R>(Try<A>, Func<A, R>)
+  href: api/funkylib.TryExt.html#funkylib_TryExt_map__2_funkylib_Try___0__System_Func___0___1__
+  commentId: M:funkylib.TryExt.map``2(funkylib.Try{``0},System.Func{``0,``1})
+  name.vb: map(Of A, R)(Try(Of A), Func(Of A, R))
+  fullName: funkylib.TryExt.map<A, R>(funkylib.Try<A>, System.Func<A, R>)
+  fullName.vb: funkylib.TryExt.map(Of A, R)(funkylib.Try(Of A), System.Func(Of A, R))
+  nameWithType: TryExt.map<A, R>(Try<A>, Func<A, R>)
+  nameWithType.vb: TryExt.map(Of A, R)(Try(Of A), Func(Of A, R))
+- uid: funkylib.TryExt.run*
+  name: run
+  href: api/funkylib.TryExt.html#funkylib_TryExt_run_
+  commentId: Overload:funkylib.TryExt.run
+  isSpec: "True"
+  fullName: funkylib.TryExt.run
+  nameWithType: TryExt.run
+- uid: funkylib.TryExt.run``1(funkylib.Try{``0})
+  name: run<T>(Try<T>)
+  href: api/funkylib.TryExt.html#funkylib_TryExt_run__1_funkylib_Try___0__
+  commentId: M:funkylib.TryExt.run``1(funkylib.Try{``0})
+  name.vb: run(Of T)(Try(Of T))
+  fullName: funkylib.TryExt.run<T>(funkylib.Try<T>)
+  fullName.vb: funkylib.TryExt.run(Of T)(funkylib.Try(Of T))
+  nameWithType: TryExt.run<T>(Try<T>)
+  nameWithType.vb: TryExt.run(Of T)(Try(Of T))
+- uid: funkylib.Unit
+  name: Unit
+  href: api/funkylib.Unit.html
+  commentId: T:funkylib.Unit
+  fullName: funkylib.Unit
+  nameWithType: Unit
