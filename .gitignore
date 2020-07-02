@@ -305,3 +305,4 @@ __pycache__/
 OpenCover/
 
 /log.txt
+/src/log.txt

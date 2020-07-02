@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>2.1.0</PackageVersion>
+    <Title>funkylib</Title>
+    <Authors>Donatas Laurinavicius</Authors>
+    <Description>Lightweight functional programming library in C#</Description>
+    <PackageLicenseUrl>https://github.com/Donatas-L/funkylib/blob/master/LICENSE.md</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Donatas-L/funkylib</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
