@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funkylib", "funkylib.csproj", "{36D85938-716D-4FAF-AF9C-D95B35F2A9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stupid", "..\example_stupid\Stupid\Stupid.csproj", "{9C2DA4BB-96EE-4E1A-980A-7333BC637C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stupid", "..\examples\Stupid\Stupid.csproj", "{9C2DA4BB-96EE-4E1A-980A-7333BC637C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
