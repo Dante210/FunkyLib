@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Donatas/Desktop/funkylib",
+  "source_base_path": "C:/work/funkylib",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "LICENSE.html",
-          "hash": "VgF/5NuzkU7IGBm7naCRlA=="
+          "hash": "FSxBeBHLG8efunmYrKayCw=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "z4PxyAEJH78SdMz6MWNAgw=="
+          "hash": "Z1odqKo5hh7LX4sslMx6wA=="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Either-2.html",
-          "hash": "5IsJcxBjtPOGTyD/d2p9Eg=="
+          "hash": "h0+I5L9PgsjxL0wv4b8B6A=="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Either.html",
-          "hash": "ecrgCmyB+5TrqMVzj9nEaQ=="
+          "hash": "mAjG3ZUEHks95nZZvgcT/g=="
         }
       },
       "is_incremental": true,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.EitherExt.html",
-          "hash": "oy2KH4uEBvVcF7Yy6BkIiA=="
+          "hash": "wXZrdMLdyPFUXcJ8aKPXPw=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Extensions.html",
-          "hash": "hXY/IryBPHcRQmz9odEFmw=="
+          "hash": "J8uh2xEDmHp78cjhIqYTHA=="
         }
       },
       "is_incremental": true,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.F.html",
-          "hash": "e0/gpZ5EkpHGQHKJwTwRIA=="
+          "hash": "Qw9NTTtHFw6YcgQTrwvEIQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.IEnumerableExt.html",
-          "hash": "DxG25WcjuxPz3adWdfSaig=="
+          "hash": "B1BuwPkFojVZ+EFnJmNgKw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.IO-1.html",
-          "hash": "ux/lT/lBybhQCEgp8v0MrA=="
+          "hash": "kL2v6tElbfXNlOEMORRDkw=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.IO.html",
-          "hash": "Zhat+xJG1y0IVlNNfhuTeg=="
+          "hash": "50IZY+ItFg3tTZ7A/pcXnQ=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Left-1.html",
-          "hash": "32EK1QJB4Iec4wMefAm2CA=="
+          "hash": "zmjOaR1KWBGLiWhPlWNKCw=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.None.html",
-          "hash": "CXYl9wTzt30odPAFuTx9bw=="
+          "hash": "mhtucHqHBVfS4emCbldYuw=="
         }
       },
       "is_incremental": true,
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Option-1.html",
-          "hash": "mbdfJBsRq9KdHoV1GUxfHg=="
+          "hash": "667oVbqY+U1FgMAwzfzqSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Option.html",
-          "hash": "8BhiyAzlrxioP+nRyfkoRQ=="
+          "hash": "RvvuN3coyW5goihccj6LmA=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.OptionExt.html",
-          "hash": "9+o4xeOKiI0QGMYFZCpoug=="
+          "hash": "+nie9n+mewOivnObgqFPfA=="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Right-1.html",
-          "hash": "8Ur4PB4e5qe2q68z2fSJ7w=="
+          "hash": "5z0rimgo788/Hk7w2upFZw=="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Some-1.html",
-          "hash": "1LxGmS6msHxp888W8CjbXw=="
+          "hash": "wwlMeaGAHK1WMo6QyUL7cA=="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Try-1.html",
-          "hash": "SLQ3Wu3Nx31k+bsrQvL3Qw=="
+          "hash": "Ea95BNSa5Jgpenu1/lq4Pg=="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.TryExt.html",
-          "hash": "hEBnOyIzBuFkOFeLYjEBHw=="
+          "hash": "U9nEqESGpm2MYddiJqqmmA=="
         }
       },
       "is_incremental": true,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.Unit.html",
-          "hash": "4PiqNeeLQHj60V0C/Okp3w=="
+          "hash": "ZhIrgYISckEvko97krCjDA=="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.Error.html",
-          "hash": "enJ+z36T+nQ2l6egCUKNXQ=="
+          "hash": "hwE94RmhoZfowqquy4TgEg=="
         }
       },
       "is_incremental": true,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.Exceptional-1.html",
-          "hash": "61EfhEgAGb3GP6vhzcg0sw=="
+          "hash": "Or2d5J3DXaxMEF3DpRQ/8Q=="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.ExceptionalExt.html",
-          "hash": "TdaWzsZGJzpHALI1aWoY0w=="
+          "hash": "1S3Dz7Jr1WjAaPhi3pSehA=="
         }
       },
       "is_incremental": true,
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.Exts.html",
-          "hash": "0nM99OVoBPT+lL/e0dmq3g=="
+          "hash": "bnRKwhHHE4njWs2GJ03lTA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.File.html",
-          "hash": "cwBQ626kOiGGaf38lxXV0A=="
+          "hash": "V4uC3ZqrVu8X/htfn5TbvQ=="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.FileExt.html",
-          "hash": "ZMdzeP+ZxqMMeErFCnM8AA=="
+          "hash": "NzWf8qS7IKSU6jhh3KXE8Q=="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.FuncExt.html",
-          "hash": "q78T9+UHwyMRIJ0FeH0VWw=="
+          "hash": "lWVANDRKvIs82fmQPyzkdA=="
         }
       },
       "is_incremental": true,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.ValueTypes.Double.html",
-          "hash": "WJTPIdqDYc1Sq1xharu7yw=="
+          "hash": "HTUZEL6XXMeIeElWbIZI4A=="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/funkylib.common.ValueTypes.Int.html",
-          "hash": "5QmeqRyp4U9qAe4cfoOmLw=="
+          "hash": "RbAzNJPNNKQCaFVrkhe6yA=="
         }
       },
       "is_incremental": true,
@@ -372,7 +372,7 @@
           "hash": "AefL+2VUi9Sv/rr9Y6k8ig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -384,7 +384,7 @@
           "hash": "CKoNZfOHt6X+sBNBSVI3Wg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "hrCbDrrFzdF9u0s3TKa7kg=="
+          "hash": "5eEh6zG3F4LOd8VOE6vxJQ=="
         }
       },
       "is_incremental": true,
@@ -413,35 +413,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "4onS5OUYKcxUrAMIrtXkHA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "adSfXdkEimBCq2OnF5mcEA=="
+          "hash": "/cbPgK/Oe5/Puk99vy7Miw=="
         }
       },
       "is_incremental": true,
@@ -453,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "q/cHogqNFljvBrDSZoNH2g=="
         }
       },
       "is_incremental": false,
@@ -472,14 +448,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 5
+          "total_file_count": 4,
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 30,
-          "skipped_file_count": 26
+          "skipped_file_count": 30
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

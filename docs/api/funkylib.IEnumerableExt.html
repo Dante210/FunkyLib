@@ -112,8 +112,13 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt_append__1_System_Collections_Generic_IEnumerable___0____0___.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt.append%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L49">View Source</a>
+  </span>
   <a id="funkylib_IEnumerableExt_append_" data-uid="funkylib.IEnumerableExt.append*"></a>
   <h4 id="funkylib_IEnumerableExt_append__1_System_Collections_Generic_IEnumerable___0____0___" data-uid="funkylib.IEnumerableExt.append``1(System.Collections.Generic.IEnumerable{``0},``0[])">append&lt;T&gt;(IEnumerable&lt;T&gt;, T[])</h4>
   <div class="markdown level1 summary"><p>Concatenates two sequences, it's the same as <code>Concat</code></p>
@@ -178,8 +183,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt_flatMap__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt.flatMap%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2CSystem.Collections.Generic.IEnumerable%7B%60%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L37">View Source</a>
+  </span>
   <a id="funkylib_IEnumerableExt_flatMap_" data-uid="funkylib.IEnumerableExt.flatMap*"></a>
   <h4 id="funkylib_IEnumerableExt_flatMap__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1___" data-uid="funkylib.IEnumerableExt.flatMap``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``1}})">flatMap&lt;A, R&gt;(IEnumerable&lt;A&gt;, Func&lt;A, IEnumerable&lt;R&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Builds a new collection by applying a function to all elements of this collection
@@ -253,8 +263,13 @@ to each element of this collection and concatenating the results</p>
   <h5 id="funkylib_IEnumerableExt_flatMap__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___1____examples">Examples</h5>
   <pre><code>static IEnumerable&lt;String> getWords(IEnumerable&lt;String> lines) => lines.flatMap(line => line.Split());</code></pre>
 
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt.flatten%60%601(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L69">View Source</a>
+  </span>
   <a id="funkylib_IEnumerableExt_flatten_" data-uid="funkylib.IEnumerableExt.flatten*"></a>
   <h4 id="funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___" data-uid="funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})">flatten&lt;A&gt;(IEnumerable&lt;IEnumerable&lt;A&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Flattens out IEnumerable&lt;IEnumerable&lt;A&gt;&gt; to IEnumerable&lt;A&gt;.</p>
@@ -322,8 +337,13 @@ to each element of this collection and concatenating the results</p>
   return toFlatten.flatten();
 }</code></pre>
 
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Immutable_ImmutableArray___0___.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt.flatten%60%601(System.Collections.Generic.IEnumerable%7BSystem.Collections.Immutable.ImmutableArray%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L78">View Source</a>
+  </span>
   <a id="funkylib_IEnumerableExt_flatten_" data-uid="funkylib.IEnumerableExt.flatten*"></a>
   <h4 id="funkylib_IEnumerableExt_flatten__1_System_Collections_Generic_IEnumerable_System_Collections_Immutable_ImmutableArray___0___" data-uid="funkylib.IEnumerableExt.flatten``1(System.Collections.Generic.IEnumerable{System.Collections.Immutable.ImmutableArray{``0}})">flatten&lt;A&gt;(IEnumerable&lt;ImmutableArray&lt;A&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -379,8 +399,13 @@ to each element of this collection and concatenating the results</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt_map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt.map%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L14">View Source</a>
+  </span>
   <a id="funkylib_IEnumerableExt_map_" data-uid="funkylib.IEnumerableExt.map*"></a>
   <h4 id="funkylib_IEnumerableExt_map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="funkylib.IEnumerableExt.map``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">map&lt;A, R&gt;(IEnumerable&lt;A&gt;, Func&lt;A, R&gt;)</h4>
   <div class="markdown level1 summary"><p>Builds a new collection by applying a function to all elements of this IEnumerable.</p>
@@ -456,6 +481,12 @@ to each element of this collection and concatenating the results</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Donatas-L/funkylib/new/master/apiSpec/new?filename=funkylib_IEnumerableExt.md&amp;value=---%0Auid%3A%20funkylib.IEnumerableExt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Donatas-L/funkylib/blob/master/src/IEnumerableExt.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
