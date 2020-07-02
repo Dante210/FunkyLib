@@ -87,6 +87,10 @@ namespace funkylib {
         ? Option.Some(mapper(value, opt2.value, opt3.value))
         : Option.None;
 
+    public IEnumerable<A> asEnumerable { get {
+      if (isSome) yield return _unsafe;
+    } }
+
     public override string ToString() => isSome ? $"Some({value})" : "None";
     public static Option<A> operator |(Option<A> left, Option<A> right) => left.isSome ? left : right;
   }

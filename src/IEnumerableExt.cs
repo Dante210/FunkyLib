@@ -82,5 +82,10 @@ namespace funkylib {
       }
       return temp;
     }
+
+    public static Option<A> head<A>(this IEnumerable<A> enumerable) {
+      foreach (var a in enumerable) return new Option<A>(a);
+      return Option.None;
+    }
   }
 }
